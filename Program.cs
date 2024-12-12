@@ -1,4 +1,4 @@
-namespace Proyecto_Final
+namespace ProyectoGina
 {
     internal static class Program
     {
