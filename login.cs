@@ -24,9 +24,27 @@ namespace ProyectoGina
 
         private void buttonLogin_Click(object sender, EventArgs e)
         {
-            DataBase data = new DataBase();
-            data.VerifyAccount(Convert.ToString(this.textBoxUser),Convert.ToString(this.textBoxPassword));
-            data.Disconnect();
+            if (string.IsNullOrWhiteSpace(textBoxUser.Text) || string.IsNullOrWhiteSpace(textBoxPassword.Text))
+            {
+                MessageBox.Show("Por favor, ingrese usuario y contraseña.",
+                    "Campos Vacíos",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning);
+                return;
+            }
+
+            using (DataBase data = new DataBase())
+            {
+                Cuentas cuenta = new Cuentas();
+
+                data.VerifyAccount(this.textBoxUser.Text,this.textBoxPassword.Text);
+
+                if (cuenta != null)
+                {
+                    MessageBox.Show("Inicio de sesion exitoso","¡¡Bienvenido!!",MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                }
+            }
         }
     }
 }

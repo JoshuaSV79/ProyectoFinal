@@ -1,34 +1,36 @@
-﻿using MySql.Data.MySqlClient;
-using System.Collections.Generic;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Collections;
-using System.Runtime.Intrinsics.Arm;
-using Mysqlx.Crud;
-using Microsoft.VisualBasic;
-using Mysqlx.Connection;
+﻿using System;
 using System.Data;
+using MySql.Data.MySqlClient;
+using System.Windows.Forms;
 
 namespace ProyectoGina
 {
-    public class DataBase
+    public class DataBase : IDisposable
     {
         private MySqlConnection Connection;
-        
-       public DataBase()
+        private readonly string ConnectionString;
+
+        public DataBase()
         {
-            this.Connect();
+            ConnectionString = "Server=127.0.0.1;Database=proyecto_final;User=root;Password=;SslMode=none;";
+            Connect();
         }
 
-        public void Disconnect()
+        public void Connect()
         {
-            if (Connection != null && Connection.State == System.Data.ConnectionState.Open)
+            try
             {
-                Connection.Close();
-                MessageBox.Show("Conexión cerrada correctamente.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                if (Connection == null)
+                    Connection = new MySqlConnection(ConnectionString);
+
+                if (Connection.State != ConnectionState.Open)
+                {
+                    Connection.Open();
+                }
+            }
+            catch (Exception ex)
+            {
+
             }
         }
 
@@ -38,64 +40,55 @@ namespace ProyectoGina
 
             try
             {
-                // Consulta para buscar la cuenta y contraseña
-                string query = "SELECT * FROM cuentas WHERE Account = '" + account + "' AND Password = '" + password + "';";
+                string query = "SELECT * FROM cuentas WHERE Account = @Account AND Password = @Password;";
 
-                // Crear el comando
-                MySqlCommand command = new MySqlCommand(query, this.Connection);
-
-                // Abrir la conexión si no está abierta
-                if (this.Connection.State != ConnectionState.Open)
-                    this.Connection.Open();
-
-                // Ejecutar la consulta
-                using (MySqlDataReader reader = command.ExecuteReader())
+                using (MySqlCommand command = new MySqlCommand(query, Connection))
                 {
-                    // Verificar si se encontró un registro
-                    if (reader.Read())
+                    command.Parameters.AddWithValue("@Account", account);
+                    command.Parameters.AddWithValue("@Password", password);
+
+                    if (Connection.State != ConnectionState.Open)
+                        Connection.Open();
+
+                    using (MySqlDataReader reader = command.ExecuteReader())
                     {
-                        // Crear un nuevo objeto Cuentas
-                        item = new Cuentas
+                        if (reader.Read())
                         {
-                            Account1 = Convert.ToString(reader["Account"].ToString()),
-                            Password1 = Convert.ToString(reader["Password"].ToString()),
-                        };
-                    }
-                    else
-                    {
-                        MessageBox.Show("NO existe la cuenta, vuelve a ingresar");
+                            item = new Cuentas
+                            {
+                                Account1 = reader["Account"].ToString(),
+                                Password1 = reader["Password"].ToString()
+                            };
+                        }
+                        else
+                        {
+                            MessageBox.Show("No existe la cuenta, vuelve a ingresar", "Información", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                        }
                     }
                 }
             }
             catch (Exception ex)
             {
-                // Mostrar mensaje de error
-                MessageBox.Show("Error al leer la tabla de la base de datos: " + ex.Message);
-
-                // Desconectar la base de datos
-                this.Disconnect();
+                MessageBox.Show($"Error al leer la tabla de la base de datos: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Disconnect();
             }
 
-            // Devolver el item (null si no se encontró)
             return item;
         }
 
-
-        public void Connect()
+        public void Disconnect()
         {
-            string cadena = "Server=localhost; Database=proyecto_final; User=root; Password=; SslMode=none;";
-            try
+            if (Connection != null && Connection.State == ConnectionState.Open)
             {
-                Connection = new MySqlConnection(cadena);
-                Connection.Open();
-                MessageBox.Show("Conexión establecida exitosamente.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Error al conectar con la base de datos: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Connection.Close();
             }
         }
+
+        // Implement IDisposable for proper resource management
+        public void Dispose()
+        {
+            Disconnect();
+            Connection?.Dispose();
+        }
     }
-
-
 }
