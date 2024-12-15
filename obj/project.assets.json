@@ -1615,11 +1615,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Escuela\\Programacion 2\\C#\\ProyectoFinal\\ProyectoFinal\\ProyectoGina.csproj",
+      "projectUniqueName": "D:\\Escuela\\Programacion 2\\C#\\ProyectoFinal\\ProyectoGina.csproj",
       "projectName": "ProyectoGina",
-      "projectPath": "D:\\Escuela\\Programacion 2\\C#\\ProyectoFinal\\ProyectoFinal\\ProyectoGina.csproj",
+      "projectPath": "D:\\Escuela\\Programacion 2\\C#\\ProyectoFinal\\ProyectoGina.csproj",
       "packagesPath": "C:\\Users\\joshu\\.nuget\\packages\\",
-      "outputPath": "D:\\Escuela\\Programacion 2\\C#\\ProyectoFinal\\ProyectoFinal\\obj\\",
+      "outputPath": "D:\\Escuela\\Programacion 2\\C#\\ProyectoFinal\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
