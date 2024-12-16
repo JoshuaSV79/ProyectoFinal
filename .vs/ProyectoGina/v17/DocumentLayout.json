@@ -1,38 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Escuela\\Programacion 2\\C#\\ProyectoFinal\\",
+  "WorkspaceRootPath": "C:\\Users\\angel\\Desktop\\ProyectoFinal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|d:\\escuela\\programacion 2\\c#\\proyectofinal\\pantalla_productos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:pantalla_productos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|d:\\escuela\\programacion 2\\c#\\proyectofinal\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|d:\\escuela\\programacion 2\\c#\\proyectofinal\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|D:\\Escuela\\Programacion 2\\C#\\ProyectoFinal\\pantalla_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|C:\\Users\\angel\\Desktop\\ProyectoFinal\\pantalla_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:pantalla_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|D:\\Escuela\\Programacion 2\\C#\\ProyectoFinal\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|c:\\users\\angel\\desktop\\proyectofinal\\pantalla_productos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:pantalla_productos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|d:\\escuela\\programacion 2\\c#\\proyectofinal\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|c:\\users\\angel\\desktop\\proyectofinal\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|D:\\Escuela\\Programacion 2\\C#\\ProyectoFinal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|c:\\users\\angel\\desktop\\proyectofinal\\pantalla_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:pantalla_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|d:\\escuela\\programacion 2\\c#\\proyectofinal\\cuentas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:cuentas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|c:\\users\\angel\\desktop\\proyectofinal\\proyectogina.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:proyectogina.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,107 +30,79 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "login.Designer.cs",
-              "DocumentMoniker": "D:\\Escuela\\Programacion 2\\C#\\ProyectoFinal\\login.Designer.cs",
-              "RelativeDocumentMoniker": "login.Designer.cs",
-              "ToolTip": "D:\\Escuela\\Programacion 2\\C#\\ProyectoFinal\\login.Designer.cs",
-              "RelativeToolTip": "login.Designer.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAtwHMAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T22:50:53.343Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "login.cs",
-              "DocumentMoniker": "D:\\Escuela\\Programacion 2\\C#\\ProyectoFinal\\login.cs",
-              "RelativeDocumentMoniker": "login.cs",
-              "ToolTip": "D:\\Escuela\\Programacion 2\\C#\\ProyectoFinal\\login.cs",
-              "RelativeToolTip": "login.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAYwC4AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T22:50:16.978Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "login.cs [Design]",
-              "DocumentMoniker": "D:\\Escuela\\Programacion 2\\C#\\ProyectoFinal\\login.cs",
-              "RelativeDocumentMoniker": "login.cs",
-              "ToolTip": "D:\\Escuela\\Programacion 2\\C#\\ProyectoFinal\\ProyectoFinal\\login.cs [Design]",
-              "RelativeToolTip": "ProyectoFinal\\login.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T22:50:12.305Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DataBase.cs",
-              "DocumentMoniker": "D:\\Escuela\\Programacion 2\\C#\\ProyectoFinal\\DataBase.cs",
-              "RelativeDocumentMoniker": "DataBase.cs",
-              "ToolTip": "D:\\Escuela\\Programacion 2\\C#\\ProyectoFinal\\DataBase.cs",
-              "RelativeToolTip": "DataBase.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAgwFYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T19:23:52.65Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "pantalla_productos.Designer.cs",
-              "DocumentMoniker": "D:\\Escuela\\Programacion 2\\C#\\ProyectoFinal\\pantalla_productos.Designer.cs",
-              "RelativeDocumentMoniker": "pantalla_productos.Designer.cs",
-              "ToolTip": "D:\\Escuela\\Programacion 2\\C#\\ProyectoFinal\\pantalla_productos.Designer.cs",
-              "RelativeToolTip": "pantalla_productos.Designer.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T19:07:31.059Z",
+              "Title": "ProyectoGina.csproj",
+              "DocumentMoniker": "C:\\Users\\angel\\Desktop\\ProyectoFinal\\ProyectoGina.csproj",
+              "RelativeDocumentMoniker": "ProyectoGina.csproj",
+              "ToolTip": "C:\\Users\\angel\\Desktop\\ProyectoFinal\\ProyectoGina.csproj",
+              "RelativeToolTip": "ProyectoGina.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-16T17:22:43.321Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "pantalla_productos.cs [Design]",
-              "DocumentMoniker": "D:\\Escuela\\Programacion 2\\C#\\ProyectoFinal\\pantalla_productos.cs",
+              "Title": "pantalla_productos.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\Desktop\\ProyectoFinal\\pantalla_productos.cs",
               "RelativeDocumentMoniker": "pantalla_productos.cs",
-              "ToolTip": "D:\\Escuela\\Programacion 2\\C#\\ProyectoFinal\\ProyectoFinal\\pantalla_productos.cs [Design]",
-              "RelativeToolTip": "ProyectoFinal\\pantalla_productos.cs [Design]",
+              "ToolTip": "C:\\Users\\angel\\Desktop\\ProyectoFinal\\pantalla_productos.cs",
+              "RelativeToolTip": "pantalla_productos.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAwCoAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T17:59:12.114Z"
+              "WhenOpened": "2024-12-16T16:43:56.495Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Cuentas.cs",
-              "DocumentMoniker": "D:\\Escuela\\Programacion 2\\C#\\ProyectoFinal\\Cuentas.cs",
-              "RelativeDocumentMoniker": "Cuentas.cs",
-              "ToolTip": "D:\\Escuela\\Programacion 2\\C#\\ProyectoFinal\\Cuentas.cs",
-              "RelativeToolTip": "Cuentas.cs",
+              "DocumentIndex": 2,
+              "Title": "DataBase.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\Desktop\\ProyectoFinal\\DataBase.cs",
+              "RelativeDocumentMoniker": "DataBase.cs",
+              "ToolTip": "C:\\Users\\angel\\Desktop\\ProyectoFinal\\DataBase.cs",
+              "RelativeToolTip": "DataBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T16:30:52.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "pantalla_productos.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\Desktop\\ProyectoFinal\\pantalla_productos.Designer.cs",
+              "RelativeDocumentMoniker": "pantalla_productos.Designer.cs",
+              "ToolTip": "C:\\Users\\angel\\Desktop\\ProyectoFinal\\pantalla_productos.Designer.cs",
+              "RelativeToolTip": "pantalla_productos.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T19:24:05.668Z"
+              "WhenOpened": "2024-12-16T16:24:28.805Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\Escuela\\Programacion 2\\C#\\ProyectoFinal\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\Escuela\\Programacion 2\\C#\\ProyectoFinal\\ProyectoFinal\\Form1.cs [Design]",
-              "RelativeToolTip": "ProyectoFinal\\Form1.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "pantalla_productos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\angel\\Desktop\\ProyectoFinal\\pantalla_productos.cs",
+              "RelativeDocumentMoniker": "pantalla_productos.cs",
+              "ToolTip": "C:\\Users\\angel\\Desktop\\ProyectoFinal\\pantalla_productos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "pantalla_productos.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T04:08:57.919Z"
+              "WhenOpened": "2024-12-16T15:45:52.513Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

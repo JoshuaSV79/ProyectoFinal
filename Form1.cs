@@ -57,11 +57,8 @@ namespace ProyectoGina
         {
             
             login f2 = new login();
+            f2.Show();
             this.Hide();
-            f2.ShowDialog();
-            this.Show();
-               
-
 
         }
     }

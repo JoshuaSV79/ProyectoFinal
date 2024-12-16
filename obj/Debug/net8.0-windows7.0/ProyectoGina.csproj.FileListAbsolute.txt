@@ -101,3 +101,19 @@ D:\Escuela\Programacion 2\C#\ProyectoFinal\ProyectoFinal\obj\Debug\net8.0-window
 D:\Escuela\Programacion 2\C#\ProyectoFinal\ProyectoFinal\obj\Debug\net8.0-windows7.0\ProyectoGina.pdb
 D:\Escuela\Programacion 2\C#\ProyectoFinal\ProyectoFinal\obj\Debug\net8.0-windows7.0\ProyectoGina.genruntimeconfig.cache
 D:\Escuela\Programacion 2\C#\ProyectoFinal\ProyectoFinal\obj\Debug\net8.0-windows7.0\ref\ProyectoGina.dll
+C:\Users\angel\Desktop\ProyectoFinal\bin\Debug\net8.0-windows7.0\Resources\christmas-lights-png-transparent-12.png
+C:\Users\angel\Desktop\ProyectoFinal\bin\Debug\net8.0-windows7.0\Resources\defaultImage.png
+C:\Users\angel\Desktop\ProyectoFinal\bin\Debug\net8.0-windows7.0\Resources\gifnevado.gif
+C:\Users\angel\Desktop\ProyectoFinal\bin\Debug\net8.0-windows7.0\Resources\gifnevado1.gif
+C:\Users\angel\Desktop\ProyectoFinal\bin\Debug\net8.0-windows7.0\Resources\LOGOUYAA.png
+C:\Users\angel\Desktop\ProyectoFinal\bin\Debug\net8.0-windows7.0\Resources\LOGOUYAA1.png
+C:\Users\angel\Desktop\ProyectoFinal\bin\Debug\net8.0-windows7.0\Resources\logo_fuby.png
+C:\Users\angel\Desktop\ProyectoFinal\bin\Debug\net8.0-windows7.0\Resources\macbookm1.jpg
+C:\Users\angel\Desktop\ProyectoFinal\bin\Debug\net8.0-windows7.0\Resources\monitorhyundai.jpg
+C:\Users\angel\Desktop\ProyectoFinal\bin\Debug\net8.0-windows7.0\Resources\mouseasus.jpg
+C:\Users\angel\Desktop\ProyectoFinal\bin\Debug\net8.0-windows7.0\Resources\plantilla-decoracion-diseno-pagina-web-papel-tapiz-fondo-blanco-estilo-futurista_1000823-29703.jpg
+C:\Users\angel\Desktop\ProyectoFinal\bin\Debug\net8.0-windows7.0\Resources\pngtree-string-colorful-christmas-lights-png-image_5596192.jpg
+C:\Users\angel\Desktop\ProyectoFinal\bin\Debug\net8.0-windows7.0\Resources\pngtree-string-colorful-christmas-lights-png-image_55961921.jpg
+C:\Users\angel\Desktop\ProyectoFinal\bin\Debug\net8.0-windows7.0\Resources\pngtree-string-colorful-christmas-lights-png-image_55961922.jpg
+C:\Users\angel\Desktop\ProyectoFinal\bin\Debug\net8.0-windows7.0\Resources\tecladorazr.png
+C:\Users\angel\Desktop\ProyectoFinal\bin\Debug\net8.0-windows7.0\Resources\UAA-LOGO.png

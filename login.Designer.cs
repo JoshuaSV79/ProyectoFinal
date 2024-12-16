@@ -35,11 +35,11 @@
             label2 = new Label();
             textBoxUser = new TextBox();
             textBoxPassword = new TextBox();
-            button1 = new Button();
+            button_salir = new Button();
             buttonLogin = new Button();
             panel2 = new Panel();
             label3 = new Label();
-            button4 = new Button();
+            button_atras = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel2.SuspendLayout();
@@ -53,9 +53,9 @@
             label4.FlatStyle = FlatStyle.Flat;
             label4.Font = new Font("MS Reference Sans Serif", 28.2F, FontStyle.Bold);
             label4.ForeColor = Color.White;
-            label4.Location = new Point(20, 27);
+            label4.Location = new Point(20, 28);
             label4.Name = "label4";
-            label4.Size = new Size(276, 55);
+            label4.Size = new Size(296, 59);
             label4.TabIndex = 5;
             label4.Text = "FutureByte";
             label4.TextAlign = ContentAlignment.MiddleCenter;
@@ -68,9 +68,9 @@
             label1.FlatStyle = FlatStyle.Flat;
             label1.Font = new Font("Microsoft PhagsPa", 10.8F, FontStyle.Bold);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(31, 94);
+            label1.Location = new Point(31, 99);
             label1.Name = "label1";
-            label1.Size = new Size(253, 22);
+            label1.Size = new Size(272, 23);
             label1.TabIndex = 6;
             label1.Text = "inovacion que conecta contigo";
             label1.TextAlign = ContentAlignment.MiddleCenter;
@@ -83,15 +83,17 @@
             panel1.Controls.Add(label4);
             panel1.Location = new Point(-2, -1);
             panel1.Name = "panel1";
-            panel1.Size = new Size(849, 155);
+            panel1.Size = new Size(849, 163);
             panel1.TabIndex = 7;
             // 
             // pictureBox1
             // 
             pictureBox1.BackColor = Color.White;
-            pictureBox1.Location = new Point(696, 10);
+            pictureBox1.Image = Properties.Resources.logo_fuby;
+            pictureBox1.Location = new Point(696, 11);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(140, 133);
+            pictureBox1.Size = new Size(140, 140);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 8;
             pictureBox1.TabStop = false;
             // 
@@ -99,45 +101,46 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-            label2.Location = new Point(353, 200);
+            label2.Location = new Point(353, 211);
             label2.Name = "label2";
-            label2.Size = new Size(130, 25);
+            label2.Size = new Size(138, 28);
             label2.TabIndex = 8;
             label2.Text = "Iniciar Sesion";
             // 
             // textBoxUser
             // 
             textBoxUser.Font = new Font("Segoe UI", 9F);
-            textBoxUser.Location = new Point(307, 244);
+            textBoxUser.Location = new Point(307, 257);
             textBoxUser.Name = "textBoxUser";
             textBoxUser.PlaceholderText = "Usuario";
-            textBoxUser.Size = new Size(231, 26);
+            textBoxUser.Size = new Size(231, 27);
             textBoxUser.TabIndex = 9;
             textBoxUser.Tag = "";
             // 
             // textBoxPassword
             // 
-            textBoxPassword.Location = new Point(307, 296);
+            textBoxPassword.Location = new Point(307, 312);
             textBoxPassword.Name = "textBoxPassword";
             textBoxPassword.PasswordChar = '*';
             textBoxPassword.PlaceholderText = "Contraseña";
-            textBoxPassword.Size = new Size(231, 26);
+            textBoxPassword.Size = new Size(231, 27);
             textBoxPassword.TabIndex = 10;
             // 
-            // button1
+            // button_salir
             // 
-            button1.Location = new Point(133, 16);
-            button1.Name = "button1";
-            button1.Size = new Size(94, 28);
-            button1.TabIndex = 11;
-            button1.Text = "Salir";
-            button1.UseVisualStyleBackColor = true;
+            button_salir.Location = new Point(133, 17);
+            button_salir.Name = "button_salir";
+            button_salir.Size = new Size(94, 29);
+            button_salir.TabIndex = 11;
+            button_salir.Text = "Salir";
+            button_salir.UseVisualStyleBackColor = true;
+            button_salir.Click += button_salir_Click;
             // 
             // buttonLogin
             // 
-            buttonLogin.Location = new Point(373, 345);
+            buttonLogin.Location = new Point(373, 363);
             buttonLogin.Name = "buttonLogin";
-            buttonLogin.Size = new Size(94, 28);
+            buttonLogin.Size = new Size(94, 29);
             buttonLogin.TabIndex = 12;
             buttonLogin.Text = "Ingresar";
             buttonLogin.UseVisualStyleBackColor = true;
@@ -147,11 +150,11 @@
             // 
             panel2.BackColor = Color.SlateGray;
             panel2.Controls.Add(label3);
-            panel2.Controls.Add(button4);
-            panel2.Controls.Add(button1);
-            panel2.Location = new Point(-2, 496);
+            panel2.Controls.Add(button_atras);
+            panel2.Controls.Add(button_salir);
+            panel2.Location = new Point(-2, 522);
             panel2.Name = "panel2";
-            panel2.Size = new Size(849, 55);
+            panel2.Size = new Size(849, 58);
             panel2.TabIndex = 9;
             // 
             // label3
@@ -160,25 +163,26 @@
             label3.Font = new Font("Segoe UI", 18F, FontStyle.Bold);
             label3.Location = new Point(590, 8);
             label3.Name = "label3";
-            label3.Size = new Size(231, 38);
+            label3.Size = new Size(246, 41);
             label3.TabIndex = 13;
             label3.Text = "Punto de Ventas";
             // 
-            // button4
+            // button_atras
             // 
-            button4.Location = new Point(16, 16);
-            button4.Name = "button4";
-            button4.Size = new Size(94, 28);
-            button4.TabIndex = 12;
-            button4.Text = "Atras";
-            button4.UseVisualStyleBackColor = true;
+            button_atras.Location = new Point(16, 17);
+            button_atras.Name = "button_atras";
+            button_atras.Size = new Size(94, 29);
+            button_atras.TabIndex = 12;
+            button_atras.Text = "Atras";
+            button_atras.UseVisualStyleBackColor = true;
+            button_atras.Click += button_atras_Click;
             // 
             // login
             // 
-            AutoScaleDimensions = new SizeF(8F, 19F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonHighlight;
-            ClientSize = new Size(846, 551);
+            ClientSize = new Size(846, 580);
             Controls.Add(buttonLogin);
             Controls.Add(textBoxPassword);
             Controls.Add(textBoxUser);
@@ -209,10 +213,10 @@
         private Label label2;
         private TextBox textBoxUser;
         private TextBox textBoxPassword;
-        private Button button1;
+        private Button button_salir;
         private Button buttonLogin;
         private Panel panel2;
-        private Button button4;
+        private Button button_atras;
         private Label label3;
     }
 }

@@ -57,7 +57,8 @@ namespace ProyectoGina
                             item = new Cuentas
                             {
                                 Account1 = reader["Account"].ToString(),
-                                Password1 = reader["Password"].ToString()
+                                Password1 = reader["Password"].ToString(),
+                                Name1 = reader["Name"].ToString()
                             };
                         }
                         else
@@ -92,3 +93,4 @@ namespace ProyectoGina
         }
     }
 }
+

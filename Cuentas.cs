@@ -10,6 +10,7 @@ namespace ProyectoGina
     {
         private string Account;
         private string Password;
+        private string Name;
 
         public Cuentas()
         {
@@ -17,6 +18,8 @@ namespace ProyectoGina
         }
 
         public string Account1 { get => Account; set => Account = value; }
-        public string Password1 { get => Password; set => Password = value; }
+        public string Password1 { get => Password; set => Password = value; } 
+
+        public string Name1 { get => Name; set => Name = value; }
     }
 }

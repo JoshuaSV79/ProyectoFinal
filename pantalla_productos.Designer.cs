@@ -30,9 +30,11 @@
         {
             panel2 = new Panel();
             label3 = new Label();
-            button4 = new Button();
-            button1 = new Button();
+            log_out = new Button();
+            button_salir = new Button();
             panel1 = new Panel();
+            label_usuario = new Label();
+            blue_label = new Label();
             logotipo_img = new PictureBox();
             label1 = new Label();
             label4 = new Label();
@@ -105,8 +107,8 @@
             // 
             panel2.BackColor = Color.SlateGray;
             panel2.Controls.Add(label3);
-            panel2.Controls.Add(button4);
-            panel2.Controls.Add(button1);
+            panel2.Controls.Add(log_out);
+            panel2.Controls.Add(button_salir);
             panel2.Location = new Point(12, 643);
             panel2.Name = "panel2";
             panel2.Size = new Size(1341, 58);
@@ -122,27 +124,31 @@
             label3.TabIndex = 13;
             label3.Text = "Punto de Ventas";
             // 
-            // button4
+            // log_out
             // 
-            button4.Location = new Point(16, 17);
-            button4.Name = "button4";
-            button4.Size = new Size(94, 29);
-            button4.TabIndex = 12;
-            button4.Text = "Atras";
-            button4.UseVisualStyleBackColor = true;
+            log_out.Location = new Point(16, 17);
+            log_out.Name = "log_out";
+            log_out.Size = new Size(94, 29);
+            log_out.TabIndex = 12;
+            log_out.Text = "Log Out";
+            log_out.UseVisualStyleBackColor = true;
+            log_out.Click += log_out_Click;
             // 
-            // button1
+            // button_salir
             // 
-            button1.Location = new Point(133, 17);
-            button1.Name = "button1";
-            button1.Size = new Size(94, 29);
-            button1.TabIndex = 11;
-            button1.Text = "Salir";
-            button1.UseVisualStyleBackColor = true;
+            button_salir.Location = new Point(133, 17);
+            button_salir.Name = "button_salir";
+            button_salir.Size = new Size(94, 29);
+            button_salir.TabIndex = 11;
+            button_salir.Text = "Salir";
+            button_salir.UseVisualStyleBackColor = true;
+            button_salir.Click += button_salir_Click;
             // 
             // panel1
             // 
             panel1.BackColor = Color.MidnightBlue;
+            panel1.Controls.Add(label_usuario);
+            panel1.Controls.Add(blue_label);
             panel1.Controls.Add(logotipo_img);
             panel1.Controls.Add(label1);
             panel1.Controls.Add(label4);
@@ -151,12 +157,36 @@
             panel1.Size = new Size(1341, 163);
             panel1.TabIndex = 32;
             // 
+            // label_usuario
+            // 
+            label_usuario.AutoSize = true;
+            label_usuario.Font = new Font("Microsoft PhagsPa", 10.8F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point, 0);
+            label_usuario.ForeColor = Color.White;
+            label_usuario.Location = new Point(910, 28);
+            label_usuario.Name = "label_usuario";
+            label_usuario.Size = new Size(46, 23);
+            label_usuario.TabIndex = 10;
+            label_usuario.Text = "user";
+            // 
+            // blue_label
+            // 
+            blue_label.AutoSize = true;
+            blue_label.Font = new Font("Microsoft PhagsPa", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            blue_label.ForeColor = Color.White;
+            blue_label.Location = new Point(821, 28);
+            blue_label.Name = "blue_label";
+            blue_label.Size = new Size(91, 23);
+            blue_label.TabIndex = 9;
+            blue_label.Text = "USUARIO";
+            // 
             // logotipo_img
             // 
             logotipo_img.BackColor = Color.White;
+            logotipo_img.Image = Properties.Resources.logo_fuby;
             logotipo_img.Location = new Point(1186, 9);
             logotipo_img.Name = "logotipo_img";
             logotipo_img.Size = new Size(140, 140);
+            logotipo_img.SizeMode = PictureBoxSizeMode.StretchImage;
             logotipo_img.TabIndex = 8;
             logotipo_img.TabStop = false;
             // 
@@ -203,11 +233,10 @@
             // 
             // img_prod01
             // 
-            img_prod01.Image = Properties.Resources.UAA_LOGO;
             img_prod01.Location = new Point(35, 20);
             img_prod01.Name = "img_prod01";
             img_prod01.Size = new Size(130, 130);
-            img_prod01.SizeMode = PictureBoxSizeMode.Zoom;
+            img_prod01.SizeMode = PictureBoxSizeMode.StretchImage;
             img_prod01.TabIndex = 2;
             img_prod01.TabStop = false;
             // 
@@ -242,11 +271,10 @@
             // 
             // img_prod02
             // 
-            img_prod02.Image = Properties.Resources.UAA_LOGO;
             img_prod02.Location = new Point(36, 18);
             img_prod02.Name = "img_prod02";
             img_prod02.Size = new Size(130, 130);
-            img_prod02.SizeMode = PictureBoxSizeMode.Zoom;
+            img_prod02.SizeMode = PictureBoxSizeMode.StretchImage;
             img_prod02.TabIndex = 3;
             img_prod02.TabStop = false;
             // 
@@ -285,7 +313,7 @@
             img_prod06.Location = new Point(36, 18);
             img_prod06.Name = "img_prod06";
             img_prod06.Size = new Size(130, 130);
-            img_prod06.SizeMode = PictureBoxSizeMode.Zoom;
+            img_prod06.SizeMode = PictureBoxSizeMode.StretchImage;
             img_prod06.TabIndex = 43;
             img_prod06.TabStop = false;
             // 
@@ -324,7 +352,7 @@
             img_pro07.Location = new Point(35, 18);
             img_pro07.Name = "img_pro07";
             img_pro07.Size = new Size(130, 130);
-            img_pro07.SizeMode = PictureBoxSizeMode.Zoom;
+            img_pro07.SizeMode = PictureBoxSizeMode.StretchImage;
             img_pro07.TabIndex = 5;
             img_pro07.TabStop = false;
             // 
@@ -359,11 +387,10 @@
             // 
             // img_prod03
             // 
-            img_prod03.Image = Properties.Resources.UAA_LOGO;
             img_prod03.Location = new Point(35, 18);
             img_prod03.Name = "img_prod03";
             img_prod03.Size = new Size(130, 130);
-            img_prod03.SizeMode = PictureBoxSizeMode.Zoom;
+            img_prod03.SizeMode = PictureBoxSizeMode.StretchImage;
             img_prod03.TabIndex = 5;
             img_prod03.TabStop = false;
             // 
@@ -398,11 +425,10 @@
             // 
             // img_prod04
             // 
-            img_prod04.Image = Properties.Resources.UAA_LOGO;
             img_prod04.Location = new Point(35, 20);
             img_prod04.Name = "img_prod04";
             img_prod04.Size = new Size(130, 130);
-            img_prod04.SizeMode = PictureBoxSizeMode.Zoom;
+            img_prod04.SizeMode = PictureBoxSizeMode.StretchImage;
             img_prod04.TabIndex = 5;
             img_prod04.TabStop = false;
             // 
@@ -515,11 +541,10 @@
             // 
             // img_prod05
             // 
-            img_prod05.Image = Properties.Resources.UAA_LOGO;
             img_prod05.Location = new Point(35, 20);
             img_prod05.Name = "img_prod05";
             img_prod05.Size = new Size(130, 130);
-            img_prod05.SizeMode = PictureBoxSizeMode.Zoom;
+            img_prod05.SizeMode = PictureBoxSizeMode.StretchImage;
             img_prod05.TabIndex = 5;
             img_prod05.TabStop = false;
             // 
@@ -598,7 +623,9 @@
             Controls.Add(producto01);
             Controls.Add(producto02);
             Name = "pantalla_productos";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "pantalla_productos";
+            Load += pantalla_productos_Load;
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             panel1.ResumeLayout(false);
@@ -640,8 +667,8 @@
         #endregion
         private Panel panel2;
         private Label label3;
-        private Button button4;
-        private Button button1;
+        private Button log_out;
+        private Button button_salir;
         private Panel panel1;
         private PictureBox logotipo_img;
         private Label label1;
@@ -686,5 +713,7 @@
         private PictureBox img_prod08;
         private PictureBox img_prod09;
         private PictureBox img_prod10;
+        private Label blue_label;
+        private Label label_usuario;
     }
 }
