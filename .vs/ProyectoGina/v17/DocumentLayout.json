@@ -1,38 +1,94 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Escuela\\Programacion 2\\C#\\ProyectoFinal\\",
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|d:\\escuela\\programacion 2\\c#\\proyectofinal\\pantalla_productos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:pantalla_productos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|d:\\escuela\\programacion 2\\c#\\proyectofinal\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|d:\\escuela\\programacion 2\\c#\\proyectofinal\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|c:\\users\\admin\\source\\repos\\proyectofinal\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|D:\\Escuela\\Programacion 2\\C#\\ProyectoFinal\\pantalla_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:pantalla_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|c:\\users\\admin\\source\\repos\\proyectofinal\\alta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:alta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|D:\\Escuela\\Programacion 2\\C#\\ProyectoFinal\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|c:\\users\\admin\\source\\repos\\proyectofinal\\menuadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:menuadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|c:\\users\\admin\\source\\repos\\proyectofinal\\alta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:alta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|c:\\users\\admin\\source\\repos\\proyectofinal\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|c:\\users\\admin\\source\\repos\\proyectofinal\\menuadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:menuadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|d:\\escuela\\programacion 2\\c#\\proyectofinal\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|c:\\users\\admin\\source\\repos\\proyectofinal\\lista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:lista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|D:\\Escuela\\Programacion 2\\C#\\ProyectoFinal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|c:\\users\\admin\\source\\repos\\proyectofinal\\grafica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:grafica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|d:\\escuela\\programacion 2\\c#\\proyectofinal\\cuentas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|c:\\users\\admin\\source\\repos\\proyectofinal\\ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|c:\\users\\admin\\source\\repos\\proyectofinal\\pantalla_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:pantalla_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|c:\\users\\admin\\source\\repos\\proyectofinal\\lista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:lista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|c:\\users\\admin\\source\\repos\\proyectofinal\\cuentas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:cuentas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|c:\\users\\admin\\source\\repos\\proyectofinal\\eliminar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:eliminar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|c:\\users\\admin\\source\\repos\\proyectofinal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|c:\\users\\admin\\source\\repos\\proyectofinal\\ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|c:\\users\\admin\\source\\repos\\proyectofinal\\grafica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:grafica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|c:\\users\\admin\\source\\repos\\proyectofinal\\pantalla_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:pantalla_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|c:\\users\\admin\\source\\repos\\proyectofinal\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|c:\\users\\admin\\source\\repos\\proyectofinal\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|c:\\users\\admin\\source\\repos\\proyectofinal\\pantalla_productos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:pantalla_productos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,107 +98,292 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "login.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\login.cs",
+              "RelativeDocumentMoniker": "login.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\login.cs",
+              "RelativeToolTip": "login.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAC4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T22:50:16.978Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "login.Designer.cs",
-              "DocumentMoniker": "D:\\Escuela\\Programacion 2\\C#\\ProyectoFinal\\login.Designer.cs",
-              "RelativeDocumentMoniker": "login.Designer.cs",
-              "ToolTip": "D:\\Escuela\\Programacion 2\\C#\\ProyectoFinal\\login.Designer.cs",
-              "RelativeToolTip": "login.Designer.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAtwHMAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T22:50:53.343Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "login.cs",
-              "DocumentMoniker": "D:\\Escuela\\Programacion 2\\C#\\ProyectoFinal\\login.cs",
-              "RelativeDocumentMoniker": "login.cs",
-              "ToolTip": "D:\\Escuela\\Programacion 2\\C#\\ProyectoFinal\\login.cs",
-              "RelativeToolTip": "login.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAYwC4AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T22:50:16.978Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "login.cs [Design]",
-              "DocumentMoniker": "D:\\Escuela\\Programacion 2\\C#\\ProyectoFinal\\login.cs",
-              "RelativeDocumentMoniker": "login.cs",
-              "ToolTip": "D:\\Escuela\\Programacion 2\\C#\\ProyectoFinal\\ProyectoFinal\\login.cs [Design]",
-              "RelativeToolTip": "ProyectoFinal\\login.cs [Design]",
+              "Title": "Productos.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\Productos.cs",
+              "RelativeDocumentMoniker": "Productos.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\Productos.cs [Design]",
+              "RelativeToolTip": "Productos.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T22:50:12.305Z"
+              "WhenOpened": "2024-12-16T23:18:48.836Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Alta.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\Alta.cs",
+              "RelativeDocumentMoniker": "Alta.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\Alta.cs",
+              "RelativeToolTip": "Alta.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAWwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T23:14:37.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Alta.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\Alta.cs",
+              "RelativeDocumentMoniker": "Alta.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\Alta.cs [Design]",
+              "RelativeToolTip": "Alta.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T23:11:38.961Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MenuAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\MenuAdmin.cs",
+              "RelativeDocumentMoniker": "MenuAdmin.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\MenuAdmin.cs",
+              "RelativeToolTip": "MenuAdmin.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAjwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T23:10:36.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MenuAdmin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\MenuAdmin.cs",
+              "RelativeDocumentMoniker": "MenuAdmin.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\MenuAdmin.cs [Design]",
+              "RelativeToolTip": "MenuAdmin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T23:02:20.485Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T04:08:57.919Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Grafica.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\Grafica.cs",
+              "RelativeDocumentMoniker": "Grafica.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\Grafica.cs [Design]",
+              "RelativeToolTip": "Grafica.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T22:48:32.968Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Lista.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\Lista.cs",
+              "RelativeDocumentMoniker": "Lista.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\Lista.cs [Design]",
+              "RelativeToolTip": "Lista.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T22:45:44.35Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\login.cs",
+              "RelativeDocumentMoniker": "login.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\login.cs [Design]",
+              "RelativeToolTip": "login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T22:50:12.305Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Ventas.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\Ventas.cs",
+              "RelativeDocumentMoniker": "Ventas.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\Ventas.cs [Design]",
+              "RelativeToolTip": "Ventas.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T22:47:06.258Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Lista.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\Lista.cs",
+              "RelativeDocumentMoniker": "Lista.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\Lista.cs",
+              "RelativeToolTip": "Lista.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswBUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T22:45:48.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "pantalla_productos.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\pantalla_productos.cs",
+              "RelativeDocumentMoniker": "pantalla_productos.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\pantalla_productos.cs [Design]",
+              "RelativeToolTip": "pantalla_productos.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T17:59:12.114Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Cuentas.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\Cuentas.cs",
+              "RelativeDocumentMoniker": "Cuentas.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\Cuentas.cs",
+              "RelativeToolTip": "Cuentas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T19:24:05.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Eliminar.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\Eliminar.cs",
+              "RelativeDocumentMoniker": "Eliminar.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\Eliminar.cs [Design]",
+              "RelativeToolTip": "Eliminar.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T22:44:14.831Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwDoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T22:25:16.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Ventas.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\Ventas.cs",
+              "RelativeDocumentMoniker": "Ventas.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\Ventas.cs",
+              "RelativeToolTip": "Ventas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T22:47:08.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Grafica.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\Grafica.cs",
+              "RelativeDocumentMoniker": "Grafica.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\Grafica.cs",
+              "RelativeToolTip": "Grafica.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwBUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T22:48:34.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "pantalla_productos.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\pantalla_productos.cs",
+              "RelativeDocumentMoniker": "pantalla_productos.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\pantalla_productos.cs",
+              "RelativeToolTip": "pantalla_productos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T21:11:16.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "login.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\login.Designer.cs",
+              "RelativeDocumentMoniker": "login.Designer.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\login.Designer.cs",
+              "RelativeToolTip": "login.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T22:50:53.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "DataBase.cs",
-              "DocumentMoniker": "D:\\Escuela\\Programacion 2\\C#\\ProyectoFinal\\DataBase.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\DataBase.cs",
               "RelativeDocumentMoniker": "DataBase.cs",
-              "ToolTip": "D:\\Escuela\\Programacion 2\\C#\\ProyectoFinal\\DataBase.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\DataBase.cs",
               "RelativeToolTip": "DataBase.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAgwFYAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowFYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-15T19:23:52.65Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 21,
               "Title": "pantalla_productos.Designer.cs",
-              "DocumentMoniker": "D:\\Escuela\\Programacion 2\\C#\\ProyectoFinal\\pantalla_productos.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\pantalla_productos.Designer.cs",
               "RelativeDocumentMoniker": "pantalla_productos.Designer.cs",
-              "ToolTip": "D:\\Escuela\\Programacion 2\\C#\\ProyectoFinal\\pantalla_productos.Designer.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\pantalla_productos.Designer.cs",
               "RelativeToolTip": "pantalla_productos.Designer.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-15T19:07:31.059Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "pantalla_productos.cs [Design]",
-              "DocumentMoniker": "D:\\Escuela\\Programacion 2\\C#\\ProyectoFinal\\pantalla_productos.cs",
-              "RelativeDocumentMoniker": "pantalla_productos.cs",
-              "ToolTip": "D:\\Escuela\\Programacion 2\\C#\\ProyectoFinal\\ProyectoFinal\\pantalla_productos.cs [Design]",
-              "RelativeToolTip": "ProyectoFinal\\pantalla_productos.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T17:59:12.114Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Cuentas.cs",
-              "DocumentMoniker": "D:\\Escuela\\Programacion 2\\C#\\ProyectoFinal\\Cuentas.cs",
-              "RelativeDocumentMoniker": "Cuentas.cs",
-              "ToolTip": "D:\\Escuela\\Programacion 2\\C#\\ProyectoFinal\\Cuentas.cs",
-              "RelativeToolTip": "Cuentas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T19:24:05.668Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\Escuela\\Programacion 2\\C#\\ProyectoFinal\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\Escuela\\Programacion 2\\C#\\ProyectoFinal\\ProyectoFinal\\Form1.cs [Design]",
-              "RelativeToolTip": "ProyectoFinal\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T04:08:57.919Z"
             }
           ]
         }
