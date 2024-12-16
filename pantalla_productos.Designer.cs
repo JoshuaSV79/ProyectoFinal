@@ -51,7 +51,7 @@
             price_prod06 = new Label();
             prod_name06 = new Label();
             producto07 = new Panel();
-            img_pro07 = new PictureBox();
+            img_prod07 = new PictureBox();
             price_prod07 = new Label();
             prod_name07 = new Label();
             producto03 = new Panel();
@@ -74,10 +74,10 @@
             img_prod05 = new PictureBox();
             price_prod05 = new Label();
             prod_name05 = new Label();
-            producto10 = new Panel();
-            img_prod10 = new PictureBox();
-            price_prod10 = new Label();
-            prod_name10 = new Label();
+            producto010 = new Panel();
+            img_prod010 = new PictureBox();
+            price_prod010 = new Label();
+            prod_name010 = new Label();
             panel2.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)logotipo_img).BeginInit();
@@ -88,7 +88,7 @@
             producto06.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)img_prod06).BeginInit();
             producto07.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)img_pro07).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)img_prod07).BeginInit();
             producto03.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)img_prod03).BeginInit();
             producto04.SuspendLayout();
@@ -99,8 +99,8 @@
             ((System.ComponentModel.ISupportInitialize)img_prod09).BeginInit();
             producto05.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)img_prod05).BeginInit();
-            producto10.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)img_prod10).BeginInit();
+            producto010.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)img_prod010).BeginInit();
             SuspendLayout();
             // 
             // panel2
@@ -309,7 +309,6 @@
             // 
             // img_prod06
             // 
-            img_prod06.Image = Properties.Resources.UAA_LOGO;
             img_prod06.Location = new Point(36, 18);
             img_prod06.Name = "img_prod06";
             img_prod06.Size = new Size(130, 130);
@@ -338,7 +337,7 @@
             // producto07
             // 
             producto07.BackColor = Color.Gainsboro;
-            producto07.Controls.Add(img_pro07);
+            producto07.Controls.Add(img_prod07);
             producto07.Controls.Add(price_prod07);
             producto07.Controls.Add(prod_name07);
             producto07.Location = new Point(347, 415);
@@ -346,15 +345,14 @@
             producto07.Size = new Size(200, 200);
             producto07.TabIndex = 40;
             // 
-            // img_pro07
+            // img_prod07
             // 
-            img_pro07.Image = Properties.Resources.UAA_LOGO;
-            img_pro07.Location = new Point(35, 18);
-            img_pro07.Name = "img_pro07";
-            img_pro07.Size = new Size(130, 130);
-            img_pro07.SizeMode = PictureBoxSizeMode.StretchImage;
-            img_pro07.TabIndex = 5;
-            img_pro07.TabStop = false;
+            img_prod07.Location = new Point(35, 18);
+            img_prod07.Name = "img_prod07";
+            img_prod07.Size = new Size(130, 130);
+            img_prod07.SizeMode = PictureBoxSizeMode.StretchImage;
+            img_prod07.TabIndex = 5;
+            img_prod07.TabStop = false;
             // 
             // price_prod07
             // 
@@ -463,7 +461,6 @@
             // 
             // img_prod08
             // 
-            img_prod08.Image = Properties.Resources.UAA_LOGO;
             img_prod08.Location = new Point(35, 18);
             img_prod08.Name = "img_prod08";
             img_prod08.Size = new Size(130, 130);
@@ -502,7 +499,6 @@
             // 
             // img_prod09
             // 
-            img_prod09.Image = Properties.Resources.UAA_LOGO;
             img_prod09.Location = new Point(35, 18);
             img_prod09.Name = "img_prod09";
             img_prod09.Size = new Size(130, 130);
@@ -566,51 +562,50 @@
             prod_name05.TabIndex = 3;
             prod_name05.Text = "Nombre producto";
             // 
-            // producto10
+            // producto010
             // 
-            producto10.BackColor = Color.Gainsboro;
-            producto10.Controls.Add(img_prod10);
-            producto10.Controls.Add(price_prod10);
-            producto10.Controls.Add(prod_name10);
-            producto10.Location = new Point(1032, 415);
-            producto10.Name = "producto10";
-            producto10.Size = new Size(200, 200);
-            producto10.TabIndex = 41;
+            producto010.BackColor = Color.Gainsboro;
+            producto010.Controls.Add(img_prod010);
+            producto010.Controls.Add(price_prod010);
+            producto010.Controls.Add(prod_name010);
+            producto010.Location = new Point(1032, 415);
+            producto010.Name = "producto010";
+            producto010.Size = new Size(200, 200);
+            producto010.TabIndex = 41;
             // 
-            // img_prod10
+            // img_prod010
             // 
-            img_prod10.Image = Properties.Resources.UAA_LOGO;
-            img_prod10.Location = new Point(35, 18);
-            img_prod10.Name = "img_prod10";
-            img_prod10.Size = new Size(130, 130);
-            img_prod10.SizeMode = PictureBoxSizeMode.Zoom;
-            img_prod10.TabIndex = 5;
-            img_prod10.TabStop = false;
+            img_prod010.Location = new Point(35, 18);
+            img_prod010.Name = "img_prod010";
+            img_prod010.Size = new Size(130, 130);
+            img_prod010.SizeMode = PictureBoxSizeMode.Zoom;
+            img_prod010.TabIndex = 5;
+            img_prod010.TabStop = false;
             // 
-            // price_prod10
+            // price_prod010
             // 
-            price_prod10.AutoSize = true;
-            price_prod10.Location = new Point(36, 171);
-            price_prod10.Name = "price_prod10";
-            price_prod10.Size = new Size(50, 20);
-            price_prod10.TabIndex = 4;
-            price_prod10.Text = "Precio";
+            price_prod010.AutoSize = true;
+            price_prod010.Location = new Point(36, 171);
+            price_prod010.Name = "price_prod010";
+            price_prod010.Size = new Size(50, 20);
+            price_prod010.TabIndex = 4;
+            price_prod010.Text = "Precio";
             // 
-            // prod_name10
+            // prod_name010
             // 
-            prod_name10.AutoSize = true;
-            prod_name10.Location = new Point(36, 151);
-            prod_name10.Name = "prod_name10";
-            prod_name10.Size = new Size(129, 20);
-            prod_name10.TabIndex = 3;
-            prod_name10.Text = "Nombre producto";
+            prod_name010.AutoSize = true;
+            prod_name010.Location = new Point(36, 151);
+            prod_name010.Name = "prod_name010";
+            prod_name010.Size = new Size(129, 20);
+            prod_name010.TabIndex = 3;
+            prod_name010.Text = "Nombre producto";
             // 
             // pantalla_productos
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1365, 713);
-            Controls.Add(producto10);
+            Controls.Add(producto010);
             Controls.Add(producto05);
             Controls.Add(producto08);
             Controls.Add(producto09);
@@ -624,7 +619,7 @@
             Controls.Add(producto02);
             Name = "pantalla_productos";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "pantalla_productos";
+            Text = "_";
             Load += pantalla_productos_Load;
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
@@ -642,7 +637,7 @@
             ((System.ComponentModel.ISupportInitialize)img_prod06).EndInit();
             producto07.ResumeLayout(false);
             producto07.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)img_pro07).EndInit();
+            ((System.ComponentModel.ISupportInitialize)img_prod07).EndInit();
             producto03.ResumeLayout(false);
             producto03.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)img_prod03).EndInit();
@@ -658,9 +653,9 @@
             producto05.ResumeLayout(false);
             producto05.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)img_prod05).EndInit();
-            producto10.ResumeLayout(false);
-            producto10.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)img_prod10).EndInit();
+            producto010.ResumeLayout(false);
+            producto010.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)img_prod010).EndInit();
             ResumeLayout(false);
         }
 
@@ -701,18 +696,18 @@
         private Panel producto05;
         private Label price_prod05;
         private Label prod_name05;
-        private Panel producto10;
-        private Label price_prod10;
-        private Label prod_name10;
+        private Panel producto010;
+        private Label price_prod010;
+        private Label prod_name010;
         private PictureBox img_prod02;
         private PictureBox img_prod03;
         private PictureBox img_prod04;
         private PictureBox img_prod05;
         private PictureBox img_prod06;
-        private PictureBox img_pro07;
+        private PictureBox img_prod07;
         private PictureBox img_prod08;
         private PictureBox img_prod09;
-        private PictureBox img_prod10;
+        private PictureBox img_prod010;
         private Label blue_label;
         private Label label_usuario;
     }

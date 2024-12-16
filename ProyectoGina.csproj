@@ -33,5 +33,14 @@
 		</Content>
 	</ItemGroup>
 
+	<ItemGroup>
+	  <None Remove="Resources\audifonosselect.png" />
+	  <None Remove="Resources\contolplay.png" />
+	  <None Remove="Resources\impresoraepson.jpg" />
+	  <None Remove="Resources\ipadmini.jpg" />
+	  <None Remove="Resources\nintendo.jpg" />
+	  <None Remove="Resources\sillagamer.png" />
+	</ItemGroup>
+
 
 </Project>

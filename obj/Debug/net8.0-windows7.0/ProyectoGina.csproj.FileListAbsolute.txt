@@ -117,3 +117,9 @@ C:\Users\angel\Desktop\ProyectoFinal\bin\Debug\net8.0-windows7.0\Resources\pngtr
 C:\Users\angel\Desktop\ProyectoFinal\bin\Debug\net8.0-windows7.0\Resources\pngtree-string-colorful-christmas-lights-png-image_55961922.jpg
 C:\Users\angel\Desktop\ProyectoFinal\bin\Debug\net8.0-windows7.0\Resources\tecladorazr.png
 C:\Users\angel\Desktop\ProyectoFinal\bin\Debug\net8.0-windows7.0\Resources\UAA-LOGO.png
+C:\Users\angel\Desktop\ProyectoFinal\bin\Debug\net8.0-windows7.0\Resources\audifonosselect.png
+C:\Users\angel\Desktop\ProyectoFinal\bin\Debug\net8.0-windows7.0\Resources\sillagamer.png
+C:\Users\angel\Desktop\ProyectoFinal\bin\Debug\net8.0-windows7.0\Resources\contolplay.png
+C:\Users\angel\Desktop\ProyectoFinal\bin\Debug\net8.0-windows7.0\Resources\impresoraepson.jpg
+C:\Users\angel\Desktop\ProyectoFinal\bin\Debug\net8.0-windows7.0\Resources\ipadmini.jpg
+C:\Users\angel\Desktop\ProyectoFinal\bin\Debug\net8.0-windows7.0\Resources\nintendo.jpg

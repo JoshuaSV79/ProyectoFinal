@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProyectoGina")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ad990deff6f878469a8561e00fbddf8332eeca7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7073c91fad5755451e3ec0428af51c89793ec5dc")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProyectoGina")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProyectoGina")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
