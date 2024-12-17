@@ -45,10 +45,14 @@
             textBoxPrice = new TextBox();
             textBoxExis = new TextBox();
             textBoxPicture = new TextBox();
-            pictureBox2 = new PictureBox();
+            pictureBoxproducto = new PictureBox();
+            panel2 = new Panel();
+            label8 = new Label();
+            button_atras = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBoxproducto).BeginInit();
+            panel2.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
@@ -180,6 +184,7 @@
             // 
             textBoxName.Location = new Point(388, 189);
             textBoxName.Name = "textBoxName";
+            textBoxName.ReadOnly = true;
             textBoxName.Size = new Size(221, 26);
             textBoxName.TabIndex = 17;
             // 
@@ -187,6 +192,7 @@
             // 
             textBoxDes.Location = new Point(388, 268);
             textBoxDes.Name = "textBoxDes";
+            textBoxDes.ReadOnly = true;
             textBoxDes.Size = new Size(221, 26);
             textBoxDes.TabIndex = 18;
             // 
@@ -194,6 +200,7 @@
             // 
             textBoxPrice.Location = new Point(388, 230);
             textBoxPrice.Name = "textBoxPrice";
+            textBoxPrice.ReadOnly = true;
             textBoxPrice.Size = new Size(221, 26);
             textBoxPrice.TabIndex = 18;
             // 
@@ -201,6 +208,7 @@
             // 
             textBoxExis.Location = new Point(388, 317);
             textBoxExis.Name = "textBoxExis";
+            textBoxExis.ReadOnly = true;
             textBoxExis.Size = new Size(221, 26);
             textBoxExis.TabIndex = 19;
             // 
@@ -208,23 +216,55 @@
             // 
             textBoxPicture.Location = new Point(388, 357);
             textBoxPicture.Name = "textBoxPicture";
+            textBoxPicture.ReadOnly = true;
             textBoxPicture.Size = new Size(221, 26);
             textBoxPicture.TabIndex = 20;
             // 
-            // pictureBox2
+            // pictureBoxproducto
             // 
-            pictureBox2.Location = new Point(662, 189);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(217, 205);
-            pictureBox2.TabIndex = 21;
-            pictureBox2.TabStop = false;
+            pictureBoxproducto.Location = new Point(662, 189);
+            pictureBoxproducto.Name = "pictureBoxproducto";
+            pictureBoxproducto.Size = new Size(217, 205);
+            pictureBoxproducto.TabIndex = 21;
+            pictureBoxproducto.TabStop = false;
+            // 
+            // panel2
+            // 
+            panel2.BackColor = Color.SlateGray;
+            panel2.Controls.Add(label8);
+            panel2.Controls.Add(button_atras);
+            panel2.Location = new Point(1, 485);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(943, 65);
+            panel2.TabIndex = 23;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Font = new Font("Segoe UI", 18F, FontStyle.Bold);
+            label8.Location = new Point(688, 13);
+            label8.Name = "label8";
+            label8.Size = new Size(231, 38);
+            label8.TabIndex = 13;
+            label8.Text = "Punto de Ventas";
+            // 
+            // button_atras
+            // 
+            button_atras.Location = new Point(31, 20);
+            button_atras.Name = "button_atras";
+            button_atras.Size = new Size(94, 28);
+            button_atras.TabIndex = 12;
+            button_atras.Text = "Atras";
+            button_atras.UseVisualStyleBackColor = true;
+            button_atras.Click += button_atras_Click;
             // 
             // Eliminar
             // 
             AutoScaleDimensions = new SizeF(8F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(942, 545);
-            Controls.Add(pictureBox2);
+            Controls.Add(panel2);
+            Controls.Add(pictureBoxproducto);
             Controls.Add(textBoxPicture);
             Controls.Add(textBoxExis);
             Controls.Add(textBoxPrice);
@@ -244,7 +284,9 @@
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBoxproducto).EndInit();
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -268,6 +310,9 @@
         private TextBox textBoxPrice;
         private TextBox textBoxExis;
         private TextBox textBoxPicture;
-        private PictureBox pictureBox2;
+        private PictureBox pictureBoxproducto;
+        private Panel panel2;
+        private Label label8;
+        private Button button_atras;
     }
 }

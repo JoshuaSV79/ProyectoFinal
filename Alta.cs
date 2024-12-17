@@ -46,7 +46,7 @@ namespace ProyectoGina
             imagen = this.textBoxImagen.Text;
             precio = Convert.ToInt32(this.textBoxPrecio.Text);
             existencias = Convert.ToInt32(this.textBoxExistencias.Text);
-            descripcion = this.textBoxDescripcion.Text; 
+            descripcion = this.textBoxDescripcion.Text;
 
             DataBase obj = new DataBase();
             obj.Insert(id, nombre, descripcion, precio, existencias, imagen);
@@ -56,6 +56,13 @@ namespace ProyectoGina
         private void textBoxPrecio_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button_atras_Click(object sender, EventArgs e)
+        {
+            MenuAdmin menu = new MenuAdmin();
+            menu.Show();
+            this.Hide();
         }
     }
 }
