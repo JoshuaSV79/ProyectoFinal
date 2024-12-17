@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\productoscs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|c:\\users\\admin\\source\\repos\\proyectofinal\\productoscs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:productoscs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|c:\\users\\admin\\source\\repos\\proyectofinal\\productoscs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:productoscs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|c:\\users\\admin\\source\\repos\\proyectofinal\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|c:\\users\\admin\\source\\repos\\proyectofinal\\grafica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:grafica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\grafica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:grafica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|c:\\users\\admin\\source\\repos\\proyectofinal\\menuadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|c:\\users\\admin\\source\\repos\\proyectofinal\\previa_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:previa_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\grafica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:grafica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\alta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -29,14 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\menuadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:menuadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|c:\\users\\admin\\source\\repos\\proyectofinal\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|c:\\users\\admin\\source\\repos\\proyectofinal\\productoscs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:productoscs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -82,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,26 +94,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
+              "Title": "Grafica.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\Grafica.cs",
+              "RelativeDocumentMoniker": "Grafica.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\Grafica.cs",
+              "RelativeToolTip": "Grafica.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T08:07:04.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DataBase.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\DataBase.cs",
               "RelativeDocumentMoniker": "DataBase.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\DataBase.cs",
               "RelativeToolTip": "DataBase.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAIwGwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAUwIEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-17T07:39:39.08Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "productoscs.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\productoscs.cs",
               "RelativeDocumentMoniker": "productoscs.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\productoscs.cs",
               "RelativeToolTip": "productoscs.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAADwvxwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAswDcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-17T07:35:21.183Z",
               "EditorCaption": ""
@@ -128,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "MenuAdmin.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\MenuAdmin.cs",
               "RelativeDocumentMoniker": "MenuAdmin.cs",
@@ -141,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "previa_productos.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\previa_productos.cs",
               "RelativeDocumentMoniker": "previa_productos.cs",
@@ -154,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Grafica.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\Grafica.cs",
               "RelativeDocumentMoniker": "Grafica.cs",
@@ -166,43 +183,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Alta.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\Alta.cs",
               "RelativeDocumentMoniker": "Alta.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\Alta.cs [Design]",
               "RelativeToolTip": "Alta.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T04:10:24.454Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-17T04:10:24.454Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "pantalla_productos.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\pantalla_productos.cs",
               "RelativeDocumentMoniker": "pantalla_productos.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\pantalla_productos.cs [Design]",
               "RelativeToolTip": "pantalla_productos.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T04:13:35.21Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-17T04:13:35.21Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "MenuAdmin.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\MenuAdmin.cs",
               "RelativeDocumentMoniker": "MenuAdmin.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\MenuAdmin.cs [Design]",
               "RelativeToolTip": "MenuAdmin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T04:10:29.599Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-17T04:10:29.599Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "login.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\login.cs",
               "RelativeDocumentMoniker": "login.cs",
@@ -213,7 +227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "pantalla_productos.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\pantalla_productos.cs",
               "RelativeDocumentMoniker": "pantalla_productos.cs",
@@ -225,7 +239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Alta.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\Alta.cs",
               "RelativeDocumentMoniker": "Alta.cs",
@@ -237,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Ventas.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\Ventas.cs",
               "RelativeDocumentMoniker": "Ventas.cs",
@@ -248,7 +262,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "login.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\login.cs",
               "RelativeDocumentMoniker": "login.cs",
@@ -260,7 +274,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -271,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "previa_productos.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\previa_productos.cs",
               "RelativeDocumentMoniker": "previa_productos.cs",
@@ -282,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Lista.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\Lista.cs",
               "RelativeDocumentMoniker": "Lista.cs",
@@ -293,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Eliminar.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\Eliminar.cs",
               "RelativeDocumentMoniker": "Eliminar.cs",

@@ -107,6 +107,28 @@ namespace ProyectoGina
 
         }
 
+        public DataTable ObtenerProductos()
+        {
+            DataTable productosTable = new DataTable();
+
+            try
+            {
+                string query = "SELECT * FROM productos";
+
+                using (MySqlDataAdapter adapter = new MySqlDataAdapter(query, Connection))
+                {
+                    // Llenar el DataTable con los datos de la consulta
+                    adapter.Fill(productosTable);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al obtener los productos: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            return productosTable;
+        }
+
         public void Disconnect()
         {
             if (Connection != null && Connection.State == ConnectionState.Open)

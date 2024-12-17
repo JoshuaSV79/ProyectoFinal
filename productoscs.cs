@@ -13,8 +13,7 @@ namespace ProyectoGina
 {
     public partial class productoscs : Form
     {
-
-        private string connectionString = "Server=127.0.0.1;Database=proyecto_final;User=root;Password=;SslMode=none;";
+        private DataBase dataBase;
 
         public productoscs()
         {
@@ -24,6 +23,9 @@ namespace ProyectoGina
 
         private void Productos_Load(object sender, EventArgs e)
         {
+            // Crear una instancia de la clase DataBase
+            dataBase = new DataBase();
+
             // Cargar los datos en el DataGridView cuando se abra el formulario
             CargarDatosEnDataGridView();
         }
@@ -32,32 +34,24 @@ namespace ProyectoGina
         {
             try
             {
-                // Consulta SQL para seleccionar los datos de la tabla
-                string query = "SELECT * FROM productos";
+                // Obtener los productos desde la base de datos
+                DataTable productosTable = dataBase.ObtenerProductos();
 
-                // Crear la conexión con la base de datos
-                using (MySqlConnection conexion = new MySqlConnection(connectionString))
-                {
-                    // Crear un adaptador de datos
-                    MySqlDataAdapter adaptador = new MySqlDataAdapter(query, conexion);
-
-                    // Crear un DataTable para almacenar los datos
-                    DataTable dataTable = new DataTable();
-
-                    // Llenar el DataTable con los datos del adaptador
-                    adaptador.Fill(dataTable);
-
-                    // Asignar el DataTable como fuente de datos del DataGridView
-                    dataGridView1.DataSource = dataTable;
-                }
+                // Asignar el DataTable como fuente de datos del DataGridView
+                dataGridView1.DataSource = productosTable;
             }
             catch (Exception ex)
             {
-                // Mostrar cualquier error
-                MessageBox.Show("Error: " + ex.Message);
+                MessageBox.Show("Error al cargar los productos: " + ex.Message);
             }
         }
+
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            // Manejo de clic en la celda si es necesario
+        }
+
+        private void productoscs_Load(object sender, EventArgs e)
         {
 
         }

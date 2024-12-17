@@ -33,6 +33,7 @@
             label1 = new Label();
             label4 = new Label();
             dataGridView1 = new DataGridView();
+            label2 = new Label();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
@@ -96,28 +97,47 @@
             // 
             dataGridView1.AllowUserToAddRows = false;
             dataGridView1.AllowUserToDeleteRows = false;
+            dataGridView1.BackgroundColor = SystemColors.MenuBar;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(229, 240);
+            dataGridView1.Location = new Point(405, 224);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.ReadOnly = true;
-            dataGridView1.Size = new Size(876, 301);
+            dataGridView1.Size = new Size(656, 367);
             dataGridView1.TabIndex = 10;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
+            // 
+            // label2
+            // 
+            label2.AllowDrop = true;
+            label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
+            label2.FlatStyle = FlatStyle.Flat;
+            label2.Font = new Font("Microsoft PhagsPa", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.ForeColor = Color.Black;
+            label2.Location = new Point(603, 170);
+            label2.Name = "label2";
+            label2.Size = new Size(252, 36);
+            label2.TabIndex = 10;
+            label2.Text = "Lista de productos";
+            label2.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // productoscs
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1379, 619);
+            Controls.Add(label2);
             Controls.Add(dataGridView1);
             Controls.Add(panel1);
             Name = "productoscs";
             Text = "productoscs";
+            Load += productoscs_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -127,5 +147,6 @@
         private Label label1;
         private Label label4;
         private DataGridView dataGridView1;
+        private Label label2;
     }
 }
