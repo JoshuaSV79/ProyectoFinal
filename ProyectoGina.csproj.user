@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
   <ItemGroup>
     <Compile Update="Alta.cs">
       <SubType>Form</SubType>
@@ -25,14 +26,13 @@
     <Compile Update="pantalla_productos.cs">
       <SubType>Form</SubType>
     </Compile>
-<<<<<<< HEAD
     <Compile Update="previa_productos.cs">
-=======
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Productos.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Ventas.cs">
->>>>>>> 1a9bcd5309df5e0d2bbb172c05e3d6c522f73471
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

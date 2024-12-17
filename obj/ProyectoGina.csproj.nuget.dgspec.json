@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "C:\\Users\\angel\\Desktop\\ProyectoFinal\\ProyectoGina.csproj": {}
   },
   "projects": {
@@ -13,27 +12,9 @@
         "projectPath": "C:\\Users\\angel\\Desktop\\ProyectoFinal\\ProyectoGina.csproj",
         "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\angel\\Desktop\\ProyectoFinal\\obj\\",
-=======
-    "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\ProyectoGina.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\ProyectoGina.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\ProyectoGina.csproj",
-        "projectName": "ProyectoGina",
-        "projectPath": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\ProyectoGina.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\obj\\",
->>>>>>> 1a9bcd5309df5e0d2bbb172c05e3d6c522f73471
         "projectStyle": "PackageReference",
         "configFilePaths": [
-<<<<<<< HEAD
           "C:\\Users\\angel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
->>>>>>> 1a9bcd5309df5e0d2bbb172c05e3d6c522f73471
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,14 +38,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-<<<<<<< HEAD
           "auditMode": "direct"
         }
-=======
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
->>>>>>> 1a9bcd5309df5e0d2bbb172c05e3d6c522f73471
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -94,11 +69,7 @@
               "privateAssets": "none"
             }
           },
-<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
->>>>>>> 1a9bcd5309df5e0d2bbb172c05e3d6c522f73471
         }
       }
     }
