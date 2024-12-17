@@ -129,6 +129,7 @@ namespace ProyectoGina
             return productosTable;
         }
 
+
         public void Disconnect()
         {
             if (Connection != null && Connection.State == ConnectionState.Open)

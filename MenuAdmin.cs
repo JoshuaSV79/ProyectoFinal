@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Interop;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,9 +13,20 @@ namespace ProyectoGina
 {
     public partial class MenuAdmin : Form
     {
+        // Crear el objeto ToolTip
+        ToolTip toolTip1 = new ToolTip();
+
         public MenuAdmin()
         {
             InitializeComponent();
+            //tooltips
+            toolTip1.SetToolTip(buttonLogin, "Alta de producto");
+            toolTip1.SetToolTip(button7, "Eliminar producto");
+            toolTip1.SetToolTip(button3, "listas de productos");
+            toolTip1.SetToolTip(button4, "Lista de ventas");
+            toolTip1.SetToolTip(button5, "Mostrar grafica");
+            toolTip1.SetToolTip(button6, "Cerrar sesion");
+
         }
 
         private void buttonLogin_Click(object sender, EventArgs e)
@@ -31,6 +43,12 @@ namespace ProyectoGina
             this.Close();
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Productos f4 = new Productos();
+            f4.Show();
+            this.Close();
+        }
 
         private void button4_Click(object sender, EventArgs e)
         {
@@ -50,13 +68,6 @@ namespace ProyectoGina
         {
             login logOut = new login();
             logOut.Show();
-            this.Close();
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            productoscs f4 = new productoscs();
-            f4.Show();
             this.Close();
         }
     }

@@ -33,6 +33,7 @@
             log_out = new Button();
             button_salir = new Button();
             panel1 = new Panel();
+            pictureBox1 = new PictureBox();
             label_usuario = new Label();
             blue_label = new Label();
             logotipo_img = new PictureBox();
@@ -78,9 +79,9 @@
             img_prod010 = new PictureBox();
             price_prod010 = new Label();
             prod_name010 = new Label();
-            pictureBox1 = new PictureBox();
             panel2.SuspendLayout();
             panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)logotipo_img).BeginInit();
             producto09.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)img_prod09).BeginInit();
@@ -102,7 +103,6 @@
             ((System.ComponentModel.ISupportInitialize)img_prod05).BeginInit();
             producto010.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)img_prod010).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // panel2
@@ -162,6 +162,16 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(1341, 163);
             panel1.TabIndex = 32;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.logo_fuby;
+            pictureBox1.Location = new Point(1186, 12);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(140, 140);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 11;
+            pictureBox1.TabStop = false;
             // 
             // label_usuario
             // 
@@ -607,16 +617,6 @@
             prod_name010.TabIndex = 3;
             prod_name010.Text = "Nombre producto";
             // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = Properties.Resources.logo_fuby;
-            pictureBox1.Location = new Point(1186, 12);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(140, 140);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 11;
-            pictureBox1.TabStop = false;
-            // 
             // pantalla_productos
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -636,11 +636,12 @@
             Controls.Add(panel1);
             Name = "pantalla_productos";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "_";
+            Text = "pantalla_productos";
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)logotipo_img).EndInit();
             producto09.ResumeLayout(false);
             producto09.PerformLayout();
@@ -672,7 +673,6 @@
             producto010.ResumeLayout(false);
             producto010.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)img_prod010).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 

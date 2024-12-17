@@ -14,11 +14,22 @@ namespace ProyectoGina
     public partial class pantalla_productos : Form
     {
         private string connectionString = "Server=127.0.0.1;Database=proyecto_final;User=root;Password=;SslMode=none;";
+
+        // Crear el objeto ToolTip
+        ToolTip toolTip1 = new ToolTip();
         public pantalla_productos(string nombreUsuario)
         {
             InitializeComponent();
             label_usuario.Text = nombreUsuario;
             CargarProductos(); // Llama a la función para llenar los paneles
+
+            //tooltips
+            toolTip1.SetToolTip(log_out, "Cerrar sesión");
+            toolTip1.SetToolTip(button_salir, "Salir del sistema");
+            toolTip1.SetToolTip(label_usuario, "Nombre del usuario con la sesion abierta");
+            toolTip1.SetToolTip(pictureBox1, "Logotipo de FutureByte");
+            toolTip1.SetToolTip(label4, "Nombre del sistema");
+            toolTip1.SetToolTip(label1, "Slogan de FutureByte");
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)

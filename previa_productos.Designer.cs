@@ -300,6 +300,7 @@
             Name = "previa_productos";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "previa_productos";
+            Load += previa_productos_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

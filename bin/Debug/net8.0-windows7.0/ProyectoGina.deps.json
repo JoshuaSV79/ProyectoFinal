@@ -8,8 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "ProyectoGina/1.0.0": {
         "dependencies": {
-          "MySql.Data": "9.1.0",
-          "System.Windows.Extensions": "8.0.0"
+          "MySql.Data": "9.1.0"
         },
         "runtime": {
           "ProyectoGina.dll": {}

@@ -2,9 +2,13 @@ namespace ProyectoGina
 {
     public partial class Form1 : Form
     {
+
+        ToolTip toolTip1 = new ToolTip();
         public Form1()
         {
+
             InitializeComponent();
+            toolTip1.SetToolTip(button1, "Ingresar al sistema");
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -55,10 +59,15 @@ namespace ProyectoGina
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+
             login f2 = new login();
             f2.Show();
             this.Hide();
+
+        }
+
+        private void pictureBox1_Click_2(object sender, EventArgs e)
+        {
 
         }
     }
