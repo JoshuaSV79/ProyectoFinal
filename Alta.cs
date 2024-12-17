@@ -49,7 +49,7 @@ namespace ProyectoGina
             descripcion = this.textBoxDescripcion.Text; 
 
             DataBase obj = new DataBase();
-            obj.insertar(id, nombre, descripcion, precio, existencias, imagen);
+            obj.Insert(id, nombre, descripcion, precio, existencias, imagen);
             obj.Disconnect();
         }
 
