@@ -128,3 +128,5 @@ C:\Users\Admin\source\repos\ProyectoFinal\obj\Debug\net8.0-windows7.0\ProyectoGi
 C:\Users\Admin\source\repos\ProyectoFinal\obj\Debug\net8.0-windows7.0\ProyectoGina.genruntimeconfig.cache
 C:\Users\Admin\source\repos\ProyectoFinal\obj\Debug\net8.0-windows7.0\ref\ProyectoGina.dll
 C:\Users\Admin\source\repos\ProyectoFinal\obj\Debug\net8.0-windows7.0\ProyectoGina.productoscs.resources
+C:\Users\Admin\source\repos\ProyectoFinal\bin\Debug\net8.0-windows7.0\Resources\img_fondo.jpeg
+C:\Users\Admin\source\repos\ProyectoFinal\obj\Debug\net8.0-windows7.0\ProyectoGina.Productos.resources
