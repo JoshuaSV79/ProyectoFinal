@@ -29,7 +29,7 @@
     <Compile Update="previa_productos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Productos.cs">
+    <Compile Update="productoscs.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Ventas.cs">

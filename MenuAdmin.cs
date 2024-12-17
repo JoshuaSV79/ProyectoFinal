@@ -31,12 +31,6 @@ namespace ProyectoGina
             this.Close();
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Productos f4 = new Productos();
-            f4.Show();
-            this.Close();
-        }
 
         private void button4_Click(object sender, EventArgs e)
         {
@@ -56,6 +50,13 @@ namespace ProyectoGina
         {
             login logOut = new login();
             logOut.Show();
+            this.Close();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            productoscs f4 = new productoscs();
+            f4.Show();
             this.Close();
         }
     }

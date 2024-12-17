@@ -170,6 +170,7 @@
             button3.TabIndex = 16;
             button3.Text = "Lista de productos";
             button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
             // 
             // button7
             // 
