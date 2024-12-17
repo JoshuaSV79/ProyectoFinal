@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
-            pictureBox1 = new PictureBox();
             label1 = new Label();
             label4 = new Label();
             pictureBox2 = new PictureBox();
@@ -39,15 +38,16 @@
             textBox2 = new TextBox();
             textBox3 = new TextBox();
             button1 = new Button();
+            pictureBox3 = new PictureBox();
             panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             SuspendLayout();
             // 
             // panel1
             // 
             panel1.BackColor = Color.MidnightBlue;
-            panel1.Controls.Add(pictureBox1);
+            panel1.Controls.Add(pictureBox3);
             panel1.Controls.Add(label1);
             panel1.Controls.Add(label4);
             panel1.Location = new Point(-2, 0);
@@ -55,16 +55,6 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(1080, 133);
             panel1.TabIndex = 8;
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.BackColor = Color.White;
-            pictureBox1.Location = new Point(946, 11);
-            pictureBox1.Margin = new Padding(3, 2, 3, 2);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(122, 105);
-            pictureBox1.TabIndex = 8;
-            pictureBox1.TabStop = false;
             // 
             // label1
             // 
@@ -99,7 +89,7 @@
             // pictureBox2
             // 
             pictureBox2.BackColor = Color.White;
-            pictureBox2.Location = new Point(424, 165);
+            pictureBox2.Location = new Point(436, 165);
             pictureBox2.Margin = new Padding(3, 2, 3, 2);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(153, 134);
@@ -108,7 +98,7 @@
             // 
             // button6
             // 
-            button6.Location = new Point(439, 312);
+            button6.Location = new Point(451, 312);
             button6.Margin = new Padding(3, 2, 3, 2);
             button6.Name = "button6";
             button6.Size = new Size(121, 36);
@@ -120,7 +110,7 @@
             // textBoxUser
             // 
             textBoxUser.Font = new Font("Segoe UI", 9F);
-            textBoxUser.Location = new Point(397, 372);
+            textBoxUser.Location = new Point(404, 368);
             textBoxUser.Margin = new Padding(3, 2, 3, 2);
             textBoxUser.Name = "textBoxUser";
             textBoxUser.PlaceholderText = "Id";
@@ -132,7 +122,7 @@
             // textBox1
             // 
             textBox1.Font = new Font("Segoe UI", 9F);
-            textBox1.Location = new Point(397, 419);
+            textBox1.Location = new Point(404, 415);
             textBox1.Margin = new Padding(3, 2, 3, 2);
             textBox1.Name = "textBox1";
             textBox1.PlaceholderText = "Descripcion";
@@ -144,7 +134,7 @@
             // textBox2
             // 
             textBox2.Font = new Font("Segoe UI", 9F);
-            textBox2.Location = new Point(397, 474);
+            textBox2.Location = new Point(404, 470);
             textBox2.Margin = new Padding(3, 2, 3, 2);
             textBox2.Name = "textBox2";
             textBox2.PlaceholderText = "Precio";
@@ -155,7 +145,7 @@
             // textBox3
             // 
             textBox3.Font = new Font("Segoe UI", 9F);
-            textBox3.Location = new Point(397, 524);
+            textBox3.Location = new Point(404, 520);
             textBox3.Margin = new Padding(3, 2, 3, 2);
             textBox3.Name = "textBox3";
             textBox3.PlaceholderText = "Existencias";
@@ -165,13 +155,25 @@
             // 
             // button1
             // 
-            button1.Location = new Point(462, 569);
+            button1.Location = new Point(469, 565);
             button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
             button1.Size = new Size(98, 36);
             button1.TabIndex = 25;
             button1.Text = "Grabar";
             button1.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.BackColor = Color.White;
+            pictureBox3.Image = Properties.Resources.logo_fuby;
+            pictureBox3.Location = new Point(946, 11);
+            pictureBox3.Margin = new Padding(3, 2, 3, 2);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(122, 105);
+            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox3.TabIndex = 9;
+            pictureBox3.TabStop = false;
             // 
             // Alta
             // 
@@ -190,8 +192,8 @@
             Text = "Alta";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -199,7 +201,6 @@
         #endregion
 
         private Panel panel1;
-        private PictureBox pictureBox1;
         private Label label1;
         private Label label4;
         private PictureBox pictureBox2;
@@ -209,5 +210,6 @@
         private TextBox textBox2;
         private TextBox textBox3;
         private Button button1;
+        private PictureBox pictureBox3;
     }
 }

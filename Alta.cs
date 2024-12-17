@@ -40,10 +40,10 @@ namespace ProyectoGina
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
                 // Cargar la imagen seleccionada en el PictureBox
-                pictureBox1.Image = Image.FromFile(openFileDialog.FileName);
+                pictureBox2.Image = Image.FromFile(openFileDialog.FileName);
 
                 // Ajustar el tamaño de la imagen en el PictureBox
-                pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+                pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             }
         }
     }
