@@ -77,6 +77,36 @@ namespace ProyectoGina
             return item;
         }
 
+        public void insertar(int id, string nombre, string descripcion, int precio, int existencias, string imagen)
+        {
+            string query = "";
+            try
+            {
+
+                /* Esta forma de insertar es la menos segura en cuanto ataques por mysql pero la mas sencilla por lo pronto*/
+                query = "INSERT INTO productos (id,nombre,descripcion,precio,existencias,image_id) VALUES ("
+               + "'" + id + "',"
+               + "'" + nombre + "',"
+               + "'" + descripcion + "', "
+               + "'" + existencias + "', "
+               + "'" + imagen + "', "
+               + "'" + precio + "')";
+
+
+
+                MySqlCommand cmd = new MySqlCommand(query, Connection);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show(query + "\nRegistro Agregado");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(query + "\nClave duplicada" + ex.Message);
+                this.Disconnect();
+            }
+
+
+        }
+
         public void Disconnect()
         {
             if (Connection != null && Connection.State == ConnectionState.Open)

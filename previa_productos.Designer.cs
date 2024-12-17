@@ -275,6 +275,7 @@
             button3.TabIndex = 24;
             button3.Text = "Enviar";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // previa_productos
             // 

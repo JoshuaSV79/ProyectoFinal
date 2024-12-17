@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
+            pictureBox2 = new PictureBox();
             label1 = new Label();
             label4 = new Label();
             label2 = new Label();
@@ -37,9 +38,7 @@
             button5 = new Button();
             button6 = new Button();
             button3 = new Button();
-            button2 = new Button();
             button7 = new Button();
-            pictureBox2 = new PictureBox();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
@@ -55,6 +54,18 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(1071, 130);
             panel1.TabIndex = 8;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.BackColor = Color.White;
+            pictureBox2.Image = Properties.Resources.logo_fuby;
+            pictureBox2.Location = new Point(935, 12);
+            pictureBox2.Margin = new Padding(3, 2, 3, 2);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(122, 105);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex = 9;
+            pictureBox2.TabStop = false;
             // 
             // label1
             // 
@@ -116,7 +127,7 @@
             // button4
             // 
             button4.BackColor = Color.DarkGray;
-            button4.Location = new Point(324, 437);
+            button4.Location = new Point(324, 336);
             button4.Margin = new Padding(3, 2, 3, 2);
             button4.Name = "button4";
             button4.Size = new Size(136, 67);
@@ -128,7 +139,7 @@
             // button5
             // 
             button5.BackColor = Color.DarkGray;
-            button5.Location = new Point(572, 437);
+            button5.Location = new Point(324, 445);
             button5.Margin = new Padding(3, 2, 3, 2);
             button5.Name = "button5";
             button5.Size = new Size(136, 67);
@@ -140,10 +151,10 @@
             // button6
             // 
             button6.BackColor = Color.DarkGray;
-            button6.Location = new Point(445, 534);
+            button6.Location = new Point(572, 445);
             button6.Margin = new Padding(3, 2, 3, 2);
             button6.Name = "button6";
-            button6.Size = new Size(136, 39);
+            button6.Size = new Size(136, 67);
             button6.TabIndex = 19;
             button6.Text = "Logout";
             button6.UseVisualStyleBackColor = false;
@@ -160,18 +171,6 @@
             button3.Text = "Lista de productos";
             button3.UseVisualStyleBackColor = false;
             // 
-            // button2
-            // 
-            button2.BackColor = Color.DarkGray;
-            button2.Location = new Point(324, 336);
-            button2.Margin = new Padding(3, 2, 3, 2);
-            button2.Name = "button2";
-            button2.Size = new Size(136, 67);
-            button2.TabIndex = 15;
-            button2.Text = "Productos";
-            button2.UseVisualStyleBackColor = false;
-            button2.Click += button2_Click;
-            // 
             // button7
             // 
             button7.BackColor = Color.DarkGray;
@@ -184,18 +183,6 @@
             button7.UseVisualStyleBackColor = false;
             button7.Click += button7_Click;
             // 
-            // pictureBox2
-            // 
-            pictureBox2.BackColor = Color.White;
-            pictureBox2.Image = Properties.Resources.logo_fuby;
-            pictureBox2.Location = new Point(935, 12);
-            pictureBox2.Margin = new Padding(3, 2, 3, 2);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(122, 105);
-            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox2.TabIndex = 9;
-            pictureBox2.TabStop = false;
-            // 
             // MenuAdmin
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -206,7 +193,6 @@
             Controls.Add(button5);
             Controls.Add(button4);
             Controls.Add(button3);
-            Controls.Add(button2);
             Controls.Add(buttonLogin);
             Controls.Add(label2);
             Controls.Add(panel1);
@@ -230,7 +216,6 @@
         private Button button5;
         private Button button6;
         private Button button3;
-        private Button button2;
         private Button button7;
         private PictureBox pictureBox2;
     }

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace ProyectoGina
 {
@@ -29,23 +30,34 @@ namespace ProyectoGina
 
         private void button6_Click(object sender, EventArgs e)
         {
-            // no se si esto tambien sirva pero sirve para agregarla en ejcucion 
-            OpenFileDialog openFileDialog = new OpenFileDialog();
 
-            // Configurar el filtro para que solo permita imágenes
-            openFileDialog.Filter = "Archivos de imagen|*.jpg;*.jpeg;*.png;*.bmp;*.gif";
-            openFileDialog.Title = "Seleccione una imagen";
+        }
 
-            // Mostrar el cuadro de diálogo
-            if (openFileDialog.ShowDialog() == DialogResult.OK)
-            {
-                // Cargar la imagen seleccionada en el PictureBox
-                pictureBox2.Image = Image.FromFile(openFileDialog.FileName);
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int id;
+            string nombre;
+            string imagen;
+            int precio;
+            int existencias;
+            string descripcion;
+            id = Convert.ToInt32(this.textBoxId.Text);
+            nombre = this.textBoxNombre.Text;
+            imagen = this.textBoxImagen.Text;
+            precio = Convert.ToInt32(this.textBoxPrecio.Text);
+            existencias = Convert.ToInt32(this.textBoxExistencias.Text);
+            descripcion = this.textBoxDescripcion.Text; 
 
-                // Ajustar el tamaño de la imagen en el PictureBox
-                pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
-            }
+            DataBase obj = new DataBase();
+            obj.insertar(id, nombre, descripcion, precio, existencias, imagen);
+            obj.Disconnect();
+        }
+
+        private void textBoxPrecio_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
-    }
+}
+    
 
