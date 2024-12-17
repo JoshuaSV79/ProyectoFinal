@@ -127,5 +127,10 @@ namespace ProyectoGina
         {
 
         }
+
+        private void pantalla_productos_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
