@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\angel\\Desktop\\ProyectoFinal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|c:\\users\\angel\\desktop\\proyectofinal\\pantalla_productos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:pantalla_productos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|c:\\users\\angel\\desktop\\proyectofinal\\pantalla_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:pantalla_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|c:\\users\\angel\\desktop\\proyectofinal\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|c:\\users\\angel\\desktop\\proyectofinal\\previa_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:previa_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|c:\\users\\angel\\desktop\\proyectofinal\\pantalla_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:pantalla_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|c:\\users\\angel\\desktop\\proyectofinal\\proyectogina.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:proyectogina.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|c:\\users\\angel\\desktop\\proyectofinal\\pantalla_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:pantalla_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|c:\\users\\angel\\desktop\\proyectofinal\\previa_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:previa_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|c:\\users\\angel\\desktop\\proyectofinal\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CC2DE14C-477C-4371-88EE-546466FC967A}|ProyectoGina.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,64 +42,64 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProyectoGina.csproj",
-              "DocumentMoniker": "C:\\Users\\angel\\Desktop\\ProyectoFinal\\ProyectoGina.csproj",
-              "RelativeDocumentMoniker": "ProyectoGina.csproj",
-              "ToolTip": "C:\\Users\\angel\\Desktop\\ProyectoFinal\\ProyectoGina.csproj",
-              "RelativeToolTip": "ProyectoGina.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-16T17:22:43.321Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "pantalla_productos.cs",
               "DocumentMoniker": "C:\\Users\\angel\\Desktop\\ProyectoFinal\\pantalla_productos.cs",
               "RelativeDocumentMoniker": "pantalla_productos.cs",
               "ToolTip": "C:\\Users\\angel\\Desktop\\ProyectoFinal\\pantalla_productos.cs",
               "RelativeToolTip": "pantalla_productos.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAwCoAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAQwG8AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T16:43:56.495Z",
+              "WhenOpened": "2024-12-17T00:17:03.338Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DataBase.cs",
-              "DocumentMoniker": "C:\\Users\\angel\\Desktop\\ProyectoFinal\\DataBase.cs",
-              "RelativeDocumentMoniker": "DataBase.cs",
-              "ToolTip": "C:\\Users\\angel\\Desktop\\ProyectoFinal\\DataBase.cs",
-              "RelativeToolTip": "DataBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T16:30:52.911Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "pantalla_productos.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\angel\\Desktop\\ProyectoFinal\\pantalla_productos.Designer.cs",
-              "RelativeDocumentMoniker": "pantalla_productos.Designer.cs",
-              "ToolTip": "C:\\Users\\angel\\Desktop\\ProyectoFinal\\pantalla_productos.Designer.cs",
-              "RelativeToolTip": "pantalla_productos.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T16:24:28.805Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "pantalla_productos.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\angel\\Desktop\\ProyectoFinal\\pantalla_productos.cs",
               "RelativeDocumentMoniker": "pantalla_productos.cs",
               "ToolTip": "C:\\Users\\angel\\Desktop\\ProyectoFinal\\pantalla_productos.cs [Dise\u00F1o]",
               "RelativeToolTip": "pantalla_productos.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T15:45:52.513Z",
+              "WhenOpened": "2024-12-17T00:16:51.435Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "previa_productos.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\Desktop\\ProyectoFinal\\previa_productos.cs",
+              "RelativeDocumentMoniker": "previa_productos.cs",
+              "ToolTip": "C:\\Users\\angel\\Desktop\\ProyectoFinal\\previa_productos.cs*",
+              "RelativeToolTip": "previa_productos.cs*",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T00:16:45.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "login.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\angel\\Desktop\\ProyectoFinal\\login.cs",
+              "RelativeDocumentMoniker": "login.cs",
+              "ToolTip": "C:\\Users\\angel\\Desktop\\ProyectoFinal\\login.cs [Dise\u00F1o]",
+              "RelativeToolTip": "login.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T00:05:01.178Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "previa_productos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\angel\\Desktop\\ProyectoFinal\\previa_productos.cs",
+              "RelativeDocumentMoniker": "previa_productos.cs",
+              "ToolTip": "C:\\Users\\angel\\Desktop\\ProyectoFinal\\previa_productos.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "previa_productos.cs [Dise\u00F1o]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T00:04:57.271Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]

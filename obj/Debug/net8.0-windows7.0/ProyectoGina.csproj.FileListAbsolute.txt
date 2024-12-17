@@ -123,3 +123,4 @@ C:\Users\angel\Desktop\ProyectoFinal\bin\Debug\net8.0-windows7.0\Resources\conto
 C:\Users\angel\Desktop\ProyectoFinal\bin\Debug\net8.0-windows7.0\Resources\impresoraepson.jpg
 C:\Users\angel\Desktop\ProyectoFinal\bin\Debug\net8.0-windows7.0\Resources\ipadmini.jpg
 C:\Users\angel\Desktop\ProyectoFinal\bin\Debug\net8.0-windows7.0\Resources\nintendo.jpg
+C:\Users\angel\Desktop\ProyectoFinal\obj\Debug\net8.0-windows7.0\ProyectoGina.previa_productos.resources

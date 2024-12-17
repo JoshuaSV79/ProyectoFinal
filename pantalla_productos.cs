@@ -45,7 +45,7 @@ namespace ProyectoGina
                 using (MySqlConnection connection = new MySqlConnection(connectionString))
                 {
                     connection.Open();
-                    string query = "SELECT nombre, precio, image_id FROM productos LIMIT 10;";
+                    string query = "SELECT id, nombre, precio, descripcion, existencias, image_id FROM productos LIMIT 10;";
                     using (MySqlCommand cmd = new MySqlCommand(query, connection))
                     {
                         using (MySqlDataAdapter adapter = new MySqlDataAdapter(cmd))
@@ -55,27 +55,36 @@ namespace ProyectoGina
 
                             for (int i = 0; i < productos.Rows.Count; i++)
                             {
+                                // Buscar controles
                                 Panel panel = this.Controls.Find($"producto0{i + 1}", true)[0] as Panel;
                                 PictureBox img = this.Controls.Find($"img_prod0{i + 1}", true)[0] as PictureBox;
                                 Label lblNombre = this.Controls.Find($"prod_name0{i + 1}", true)[0] as Label;
                                 Label lblPrecio = this.Controls.Find($"price_prod0{i + 1}", true)[0] as Label;
 
+                                // Asignar valores
                                 lblNombre.Text = productos.Rows[i]["nombre"].ToString();
                                 lblPrecio.Text = $"${productos.Rows[i]["precio"]}";
 
-                                // Obtener la ruta absoluta de la imagen
+                                // Cargar imagen
                                 string imageName = productos.Rows[i]["image_id"].ToString();
                                 string fullPath = System.IO.Path.Combine(Application.StartupPath, "Resources", imageName);
-
                                 if (System.IO.File.Exists(fullPath))
                                 {
                                     img.Image = Image.FromFile(fullPath);
                                     img.SizeMode = PictureBoxSizeMode.Zoom;
                                 }
-                                else
+
+                                // Evento Click para abrir el formulario con los datos
+                                string id = productos.Rows[i]["id"].ToString();
+                                string nombre = productos.Rows[i]["nombre"].ToString();
+                                string precio = productos.Rows[i]["precio"].ToString();
+                                string descripcion = productos.Rows[i]["descripcion"].ToString();
+                                string existencias = productos.Rows[i]["existencias"].ToString();
+
+                                panel.Click += (sender, e) =>
                                 {
-                                    img.Image = Properties.Resources.logo_fuby; // Imagen por defect
-                                }
+                                    AbrirPreviaProducto(id, nombre, precio, descripcion, imageName, existencias);
+                                };
 
                                 panel.Visible = true;
                             }
@@ -83,12 +92,36 @@ namespace ProyectoGina
                     }
                 }
             }
+
             catch (Exception ex)
             {
                 MessageBox.Show($"Error: {ex.Message}");
             }
         }
 
+        private void AbrirPreviaProducto(string id, string nombre, string precio, string descripcion, string imageName, string existencias)
+        {
+            // Crear una instancia del formulario previa_productos
+            previa_productos detalleForm = new previa_productos();
+
+            // Asignar valores a los controles del formulario
+            detalleForm.name.Text = nombre;
+            detalleForm.price.Text = $"Precio: ${precio}";
+            detalleForm.descripcion.Text = descripcion;
+            detalleForm.id.Text = $"ID: {id}";
+            detalleForm.existencias.Text = $"{existencias}";
+
+            // Cargar la imagen
+            string fullPath = System.IO.Path.Combine(Application.StartupPath, "Resources", imageName);
+            if (System.IO.File.Exists(fullPath))
+            {
+                detalleForm.image.Image = Image.FromFile(fullPath);
+                detalleForm.image.SizeMode = PictureBoxSizeMode.Zoom;
+            }
+
+            // Mostrar el formulario
+            detalleForm.ShowDialog();
+        }
 
         private void pantalla_productos_Load(object sender, EventArgs e)
         {
