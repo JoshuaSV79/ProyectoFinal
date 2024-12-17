@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "Grafica.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\ProyectoFinal\\Grafica.cs",
               "RelativeToolTip": "Grafica.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-17T04:51:42.936Z",
               "EditorCaption": ""
@@ -80,6 +80,10 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
               "WhenOpened": "2024-12-17T04:08:21.913Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             }
           ]
         }

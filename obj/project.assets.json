@@ -1605,7 +1605,8 @@
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
-      "MySql.Data >= 9.1.0"
+      "MySql.Data >= 9.1.0",
+      "System.Windows.Extensions >= 8.0.0"
     ]
   },
   "packageFolders": {
@@ -1661,6 +1662,10 @@
           "MySql.Data": {
             "target": "Package",
             "version": "[9.1.0, )"
+          },
+          "System.Windows.Extensions": {
+            "target": "Package",
+            "version": "[8.0.0, )"
           }
         },
         "imports": [

@@ -32,6 +32,8 @@
             pictureBox1 = new PictureBox();
             label1 = new Label();
             label4 = new Label();
+            listBoxVentas = new ListBox();
+            lblResumenVentas = new Label();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -90,11 +92,32 @@
             label4.Text = "FutureByte";
             label4.TextAlign = ContentAlignment.MiddleCenter;
             // 
+            // listBoxVentas
+            // 
+            listBoxVentas.FormattingEnabled = true;
+            listBoxVentas.ItemHeight = 15;
+            listBoxVentas.Location = new Point(471, 321);
+            listBoxVentas.Name = "listBoxVentas";
+            listBoxVentas.Size = new Size(120, 94);
+            listBoxVentas.TabIndex = 9;
+            listBoxVentas.SelectedIndexChanged += listBoxVentas_SelectedIndexChanged;
+            // 
+            // lblResumenVentas
+            // 
+            lblResumenVentas.AutoSize = true;
+            lblResumenVentas.Location = new Point(478, 230);
+            lblResumenVentas.Name = "lblResumenVentas";
+            lblResumenVentas.Size = new Size(38, 15);
+            lblResumenVentas.TabIndex = 10;
+            lblResumenVentas.Text = "label2";
+            // 
             // Ventas
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1088, 547);
+            Controls.Add(lblResumenVentas);
+            Controls.Add(listBoxVentas);
             Controls.Add(panel1);
             Name = "Ventas";
             Text = "Ventas";
@@ -103,6 +126,7 @@
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -111,5 +135,7 @@
         private PictureBox pictureBox1;
         private Label label1;
         private Label label4;
+        private ListBox listBoxVentas;
+        private Label lblResumenVentas;
     }
 }
