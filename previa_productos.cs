@@ -1,37 +1,23 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace ProyectoGina
 {
     public partial class previa_productos : Form
     {
+        private int existenciasDisponibles = 0; // Existencias actuales
+        private int cantidadSeleccionada = 0;   // Cantidad seleccionada
+        public string ProductoNombre { get; set; } // Nombre del producto
+        public double ProductoPrecio { get; set; } // Precio del producto
 
-        // Crear el objeto ToolTip
-        ToolTip toolTip1 = new ToolTip();
-        public previa_productos()
+        // Instancia global de "pedido" para reutilizar
+        private pedido formularioPedido;
+
+        public previa_productos(pedido pedidoForm)
         {
             InitializeComponent();
-            //tooltips
-            toolTip1.SetToolTip(label4, "Nombre del sistema");
-            toolTip1.SetToolTip(label1, "Slogan de FutureByte");
-            toolTip1.SetToolTip(pictureBox1, "Logotipo de FutureByte");
-            toolTip1.SetToolTip(button_atras, "Volver a atras");
-            toolTip1.SetToolTip(image, "Imagen del producto");
-            toolTip1.SetToolTip(name, "Nombre del producto");
-            toolTip1.SetToolTip(price, "Precio del producto");
-            toolTip1.SetToolTip(descripcion, "Descripcion del producto");
-            toolTip1.SetToolTip(id, "Id del producto");
-            toolTip1.SetToolTip(existencias, "Cantidad disponible");
-            toolTip1.SetToolTip(button3, "Presiona para enviar");
-            toolTip1.SetToolTip(label2, "Pantalla de informacion de producto");
-
+            formularioPedido = pedidoForm; // Guarda la referencia a pedido
         }
 
         private void button_atras_Click(object sender, EventArgs e)
@@ -43,15 +29,91 @@ namespace ProyectoGina
         {
 
         }
-
-        private void button3_Click(object sender, EventArgs e)
+        // Método para inicializar existencias
+        public void InicializarExistencias(int existencias)
         {
-
+            existenciasDisponibles = existencias;
+            textBox_cant.Text = "0";
+            cantidadSeleccionada = 0;
+            label_existencias.Text = existencias.ToString(); // Mostrar existencias
         }
 
-        private void previa_productos_Load(object sender, EventArgs e)
+        // Botón "Más"
+        private void button_mas_Click(object sender, EventArgs e)
         {
-
+            if (cantidadSeleccionada < existenciasDisponibles)
+            {
+                cantidadSeleccionada++;
+                textBox_cant.Text = cantidadSeleccionada.ToString();
+            }
+            else
+            {
+                MessageBox.Show("¡Límite de existencias alcanzado!", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
+
+        // Botón "Menos"
+        private void button_menos_Click(object sender, EventArgs e)
+        {
+            if (cantidadSeleccionada > 0)
+            {
+                cantidadSeleccionada--;
+                textBox_cant.Text = cantidadSeleccionada.ToString();
+            }
+        }
+
+        // Botón "Enviar"
+        private void button_enviar_Click(object sender, EventArgs e)
+        {
+            if (cantidadSeleccionada == 0)
+            {
+                MessageBox.Show("Debe seleccionar al menos un producto.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            try
+            {
+                // Actualizar existencias en la base de datos
+                using (MySqlConnection connection = new MySqlConnection("Server=127.0.0.1;Database=proyecto_final;User=root;Password=;SslMode=none;"))
+                {
+                    connection.Open();
+                    string query = "UPDATE productos SET existencias = existencias - @cantidad WHERE nombre = @nombre";
+                    using (MySqlCommand cmd = new MySqlCommand(query, connection))
+                    {
+                        cmd.Parameters.AddWithValue("@cantidad", cantidadSeleccionada);
+                        cmd.Parameters.AddWithValue("@nombre", ProductoNombre);
+
+                        int filasAfectadas = cmd.ExecuteNonQuery();
+
+                        if (filasAfectadas > 0)
+                        {
+                            // Actualizar existencias locales
+                            existenciasDisponibles -= cantidadSeleccionada;
+                            label_existencias.Text = existenciasDisponibles.ToString();
+
+                            // Agregar al formulario "pedido"
+                            string detallePedido = $"Producto: {ProductoNombre} | Cantidad: {cantidadSeleccionada} | Precio Total: ${ProductoPrecio * cantidadSeleccionada}";
+                            formularioPedido.AgregarPedido(detallePedido, ProductoPrecio * cantidadSeleccionada);
+
+                            MessageBox.Show("Pedido enviado correctamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                            // Reiniciar valores
+                            cantidadSeleccionada = 0;
+                            textBox_cant.Text = "0";
+                        }
+                        else
+                        {
+                            MessageBox.Show("Error: El producto no se encontró o no se actualizaron existencias.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al actualizar la base de datos: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+
     }
 }

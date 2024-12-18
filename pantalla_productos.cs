@@ -14,22 +14,11 @@ namespace ProyectoGina
     public partial class pantalla_productos : Form
     {
         private string connectionString = "Server=127.0.0.1;Database=proyecto_final;User=root;Password=;SslMode=none;";
-
-        // Crear el objeto ToolTip
-        ToolTip toolTip1 = new ToolTip();
         public pantalla_productos(string nombreUsuario)
         {
             InitializeComponent();
             label_usuario.Text = nombreUsuario;
             CargarProductos(); // Llama a la función para llenar los paneles
-
-            //tooltips
-            toolTip1.SetToolTip(log_out, "Cerrar sesión");
-            toolTip1.SetToolTip(button_salir, "Salir del sistema");
-            toolTip1.SetToolTip(label_usuario, "Nombre del usuario con la sesion abierta");
-            toolTip1.SetToolTip(pictureBox1, "Logotipo de FutureByte");
-            toolTip1.SetToolTip(label4, "Nombre del sistema");
-            toolTip1.SetToolTip(label1, "Slogan de FutureByte");
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
@@ -47,6 +36,7 @@ namespace ProyectoGina
         {
             Application.Exit();
         }
+        
 
         // Cargar los productos desde la base de datos y asignarlos a los paneles
         private void CargarProductos()
@@ -110,19 +100,32 @@ namespace ProyectoGina
             }
         }
 
+        private pedido formularioPedido;
+
         private void AbrirPreviaProducto(string id, string nombre, string precio, string descripcion, string imageName, string existencias)
         {
-            // Crear una instancia del formulario previa_productos
-            previa_productos detalleForm = new previa_productos();
+            // Verificar si formularioPedido existe
+            if (formularioPedido == null || formularioPedido.IsDisposed)
+            {
+                formularioPedido = new pedido(this); // Crear una nueva instancia
+            }
 
-            // Asignar valores a los controles del formulario
+            // Crear la instancia de previa_productos pasando formularioPedido
+            previa_productos detalleForm = new previa_productos(formularioPedido);
+
+            // Configurar el formulario con la información del producto
+            detalleForm.ProductoNombre = nombre;
+            detalleForm.ProductoPrecio = double.Parse(precio);
+            detalleForm.InicializarExistencias(int.Parse(existencias));
+
+            // Asignar controles
             detalleForm.name.Text = nombre;
             detalleForm.price.Text = $"Precio: ${precio}";
             detalleForm.descripcion.Text = descripcion;
             detalleForm.id.Text = $"ID: {id}";
-            detalleForm.existencias.Text = $"{existencias}";
+            detalleForm.label_existencias.Text = $"{existencias}";
 
-            // Cargar la imagen
+            // Cargar imagen
             string fullPath = System.IO.Path.Combine(Application.StartupPath, "Resources", imageName);
             if (System.IO.File.Exists(fullPath))
             {
@@ -130,13 +133,24 @@ namespace ProyectoGina
                 detalleForm.image.SizeMode = PictureBoxSizeMode.Zoom;
             }
 
-            // Mostrar el formulario
+            // Mostrar previa_productos
             detalleForm.ShowDialog();
         }
+
 
         private void pantalla_productos_Load(object sender, EventArgs e)
         {
 
+        }
+        private void button_pedido_Click(object sender, EventArgs e)
+        {
+            if (formularioPedido == null || formularioPedido.IsDisposed)
+            {
+                formularioPedido = new pedido(this); // Pasa la instancia actual de pantalla_productos
+            }
+            formularioPedido.Show();
+            formularioPedido.BringToFront();
+            
         }
     }
 }

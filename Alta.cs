@@ -58,11 +58,11 @@ namespace ProyectoGina
 
         }
 
-        private void button_atras_Click(object sender, EventArgs e)
+        private void buttonAtras_Click(object sender, EventArgs e)
         {
-            MenuAdmin menu = new MenuAdmin();
-            menu.Show();
-            this.Hide();
+            MenuAdmin menuadmin = new MenuAdmin();
+            menuadmin.Show();
+            this.Close();    
         }
     }
 }

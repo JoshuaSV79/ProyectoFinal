@@ -5,7 +5,7 @@ using System.Windows.Forms;
 
 namespace ProyectoGina
 {
-    public class DataBase: IDisposable
+    public class DataBase : IDisposable
     {
         private MySqlConnection Connection;
         private readonly string ConnectionString;
@@ -100,7 +100,7 @@ namespace ProyectoGina
 
                     id = Convert.ToInt32(reader["id"]);
                     nombre = Convert.ToString(reader["nombre"]) ?? "";
-                    descripcion = Convert.ToString(reader["descripcion"]) ?? ""; 
+                    descripcion = Convert.ToString(reader["descripcion"]) ?? "";
                     imagen = Convert.ToString(reader["image_id"]) ?? "";
                     precio = Convert.ToInt32(reader["precio"]);
                     existencias = Convert.ToInt32(reader["existencias"]);

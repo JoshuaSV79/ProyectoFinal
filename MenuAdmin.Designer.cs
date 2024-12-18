@@ -49,7 +49,6 @@
             panel1.Controls.Add(pictureBox2);
             panel1.Controls.Add(label1);
             panel1.Controls.Add(label4);
-            panel1.Controls.Add(label2);
             panel1.Location = new Point(-8, -1);
             panel1.Name = "panel1";
             panel1.Size = new Size(1224, 173);
@@ -102,11 +101,11 @@
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
             label2.FlatStyle = FlatStyle.Flat;
-            label2.Font = new Font("Microsoft PhagsPa", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.ForeColor = Color.White;
-            label2.Location = new Point(398, 112);
+            label2.Font = new Font("Microsoft PhagsPa", 26.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.ForeColor = Color.Black;
+            label2.Location = new Point(358, 204);
             label2.Name = "label2";
-            label2.Size = new Size(396, 44);
+            label2.Size = new Size(514, 58);
             label2.TabIndex = 9;
             label2.Text = "Menu de administrador";
             label2.TextAlign = ContentAlignment.MiddleCenter;
@@ -114,7 +113,7 @@
             // buttonLogin
             // 
             buttonLogin.BackColor = Color.DarkGray;
-            buttonLogin.Location = new Point(373, 230);
+            buttonLogin.Location = new Point(370, 301);
             buttonLogin.Name = "buttonLogin";
             buttonLogin.Size = new Size(155, 89);
             buttonLogin.TabIndex = 13;
@@ -125,7 +124,7 @@
             // button4
             // 
             button4.BackColor = Color.DarkGray;
-            button4.Location = new Point(373, 377);
+            button4.Location = new Point(370, 448);
             button4.Name = "button4";
             button4.Size = new Size(155, 89);
             button4.TabIndex = 17;
@@ -136,7 +135,7 @@
             // button5
             // 
             button5.BackColor = Color.DarkGray;
-            button5.Location = new Point(373, 522);
+            button5.Location = new Point(370, 593);
             button5.Name = "button5";
             button5.Size = new Size(155, 89);
             button5.TabIndex = 18;
@@ -147,7 +146,7 @@
             // button6
             // 
             button6.BackColor = Color.DarkGray;
-            button6.Location = new Point(657, 522);
+            button6.Location = new Point(654, 593);
             button6.Name = "button6";
             button6.Size = new Size(155, 89);
             button6.TabIndex = 19;
@@ -158,17 +157,18 @@
             // button3
             // 
             button3.BackColor = Color.DarkGray;
-            button3.Location = new Point(657, 377);
+            button3.Location = new Point(654, 448);
             button3.Name = "button3";
             button3.Size = new Size(155, 89);
             button3.TabIndex = 16;
             button3.Text = "Lista de productos";
             button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
             // 
             // button7
             // 
             button7.BackColor = Color.DarkGray;
-            button7.Location = new Point(657, 230);
+            button7.Location = new Point(654, 301);
             button7.Name = "button7";
             button7.Size = new Size(155, 89);
             button7.TabIndex = 21;
@@ -187,6 +187,7 @@
             Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(buttonLogin);
+            Controls.Add(label2);
             Controls.Add(panel1);
             Margin = new Padding(3, 4, 3, 4);
             Name = "MenuAdmin";
@@ -196,6 +197,7 @@
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

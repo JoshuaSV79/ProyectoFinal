@@ -79,6 +79,7 @@
             img_prod010 = new PictureBox();
             price_prod010 = new Label();
             prod_name010 = new Label();
+            button_pedido = new Button();
             panel2.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -152,6 +153,7 @@
             // panel1
             // 
             panel1.BackColor = Color.MidnightBlue;
+            panel1.Controls.Add(button_pedido);
             panel1.Controls.Add(pictureBox1);
             panel1.Controls.Add(label_usuario);
             panel1.Controls.Add(blue_label);
@@ -617,6 +619,16 @@
             prod_name010.TabIndex = 3;
             prod_name010.Text = "Nombre producto";
             // 
+            // button_pedido
+            // 
+            button_pedido.Location = new Point(858, 78);
+            button_pedido.Name = "button_pedido";
+            button_pedido.Size = new Size(94, 29);
+            button_pedido.TabIndex = 12;
+            button_pedido.Text = "Pedido";
+            button_pedido.UseVisualStyleBackColor = true;
+            button_pedido.Click += button_pedido_Click;
+            // 
             // pantalla_productos
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -636,7 +648,7 @@
             Controls.Add(panel1);
             Name = "pantalla_productos";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "pantalla_productos";
+            Text = "_";
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             panel1.ResumeLayout(false);
@@ -728,5 +740,6 @@
         private Label price_prod010;
         private Label prod_name010;
         private PictureBox pictureBox1;
+        private Button button_pedido;
     }
 }

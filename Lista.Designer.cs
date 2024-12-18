@@ -43,19 +43,17 @@
             panel1.Controls.Add(label1);
             panel1.Controls.Add(label4);
             panel1.Location = new Point(1, 0);
-            panel1.Margin = new Padding(3, 2, 3, 2);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1203, 135);
+            panel1.Size = new Size(1375, 180);
             panel1.TabIndex = 9;
             // 
             // pictureBox1
             // 
             pictureBox1.BackColor = Color.White;
             pictureBox1.Image = Properties.Resources.logo_fuby;
-            pictureBox1.Location = new Point(1068, 11);
-            pictureBox1.Margin = new Padding(3, 2, 3, 2);
+            pictureBox1.Location = new Point(1221, 15);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(122, 105);
+            pictureBox1.Size = new Size(139, 140);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 8;
             pictureBox1.TabStop = false;
@@ -68,9 +66,9 @@
             label1.FlatStyle = FlatStyle.Flat;
             label1.Font = new Font("Microsoft PhagsPa", 10.8F, FontStyle.Bold);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(27, 74);
+            label1.Location = new Point(31, 99);
             label1.Name = "label1";
-            label1.Size = new Size(221, 20);
+            label1.Size = new Size(272, 23);
             label1.TabIndex = 6;
             label1.Text = "inovacion que conecta contigo";
             label1.TextAlign = ContentAlignment.MiddleCenter;
@@ -83,20 +81,22 @@
             label4.FlatStyle = FlatStyle.Flat;
             label4.Font = new Font("MS Reference Sans Serif", 28.2F, FontStyle.Bold);
             label4.ForeColor = Color.White;
-            label4.Location = new Point(18, 21);
+            label4.Location = new Point(21, 28);
             label4.Name = "label4";
-            label4.Size = new Size(240, 46);
+            label4.Size = new Size(296, 59);
             label4.TabIndex = 5;
             label4.Text = "FutureByte";
             label4.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // Lista
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1203, 667);
+            ClientSize = new Size(1375, 889);
             Controls.Add(panel1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Lista";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Lista";
             Load += Lista_Load;
             panel1.ResumeLayout(false);

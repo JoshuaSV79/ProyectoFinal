@@ -12,22 +12,9 @@ namespace ProyectoGina
 {
     public partial class login : Form
     {
-
-        // Crear el objeto ToolTip
-        ToolTip toolTip1 = new ToolTip();
         public login()
         {
             InitializeComponent();
-
-            //tooltips
-            toolTip1.SetToolTip(label4, "Nombre del sistema");
-            toolTip1.SetToolTip(label1, "Slogan de FutureByte");
-            toolTip1.SetToolTip(pictureBox1, "Logotipo de FutureByte");
-            toolTip1.SetToolTip(button_salir, "Salir del sistema");
-            toolTip1.SetToolTip(button_atras, "Volver a atras");
-
-            toolTip1.SetToolTip(textBoxUser, "Ingresar usuario");
-            toolTip1.SetToolTip(textBoxPassword, "Ingresar contraseña");
         }
 
         private void Form2_Load(object sender, EventArgs e)
