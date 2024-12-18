@@ -70,7 +70,7 @@ namespace ProyectoGina
         {
             using (DataBase data = new DataBase())
             {
-                data.Delete(Convert.ToInt32(this.textBoxId));
+                data.Delete(Convert.ToInt32(this.textBoxId.Text));
             }
         }
 

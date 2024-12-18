@@ -39,6 +39,7 @@
             pedido_richtxt = new RichTextBox();
             label2 = new Label();
             total = new Label();
+            button1 = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel2.SuspendLayout();
@@ -168,11 +169,23 @@
             total.TabIndex = 15;
             total.Text = "total";
             // 
+            // button1
+            // 
+            button1.Location = new Point(588, 442);
+            button1.Margin = new Padding(3, 2, 3, 2);
+            button1.Name = "button1";
+            button1.Size = new Size(82, 22);
+            button1.TabIndex = 16;
+            button1.Text = "Nota";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // pedido
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(792, 522);
+            Controls.Add(button1);
             Controls.Add(total);
             Controls.Add(label2);
             Controls.Add(pedido_richtxt);
@@ -205,5 +218,6 @@
         private RichTextBox pedido_richtxt;
         private Label label2;
         private Label total;
+        private Button button1;
     }
 }

@@ -22,9 +22,21 @@ namespace ProyectoGina
 
         private void buttonConfirmarPago_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("¡Compra exitosa!", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            this.Hide();
-            pantallaProductos.Show();
+            try
+            {
+                // Lógica de confirmación (como actualizar existencias ya realizada)
+                MessageBox.Show("¡Compra exitosa!", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                // Registro en el formulario Ventas
+                // Puedes usar una referencia global o cargar los datos desde la base de datos
+
+                this.Hide();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al confirmar el pago: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
+
     }
 }

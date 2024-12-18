@@ -36,7 +36,18 @@ namespace ProyectoGina
             textBox_cant.Text = "0";
             cantidadSeleccionada = 0;
             label_existencias.Text = existencias.ToString(); // Mostrar existencias
+
+            // Actualizar el estado del label_agotado
+            if (existenciasDisponibles == 0)
+            {
+                label_agotado.Text = "Producto agotado";
+            }
+            else
+            {
+                label_agotado.Text = string.Empty; // Limpiar el texto si hay existencias
+            }
         }
+
 
         // Botón "Más"
         private void button_mas_Click(object sender, EventArgs e)
@@ -70,14 +81,13 @@ namespace ProyectoGina
                 MessageBox.Show("Debe seleccionar al menos un producto.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-
             try
             {
-                // Actualizar existencias en la base de datos
+                // Actualizar existencias y ventas en la base de datos
                 using (MySqlConnection connection = new MySqlConnection("Server=127.0.0.1;Database=proyecto_final;User=root;Password=;SslMode=none;"))
                 {
                     connection.Open();
-                    string query = "UPDATE productos SET existencias = existencias - @cantidad WHERE nombre = @nombre";
+                    string query = "UPDATE productos SET existencias = existencias - @cantidad, ventas = ventas + @cantidad WHERE nombre = @nombre";
                     using (MySqlCommand cmd = new MySqlCommand(query, connection))
                     {
                         cmd.Parameters.AddWithValue("@cantidad", cantidadSeleccionada);
@@ -112,8 +122,6 @@ namespace ProyectoGina
             {
                 MessageBox.Show($"Error al actualizar la base de datos: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            }
         }
-
-
     }
-}

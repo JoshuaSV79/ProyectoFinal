@@ -48,6 +48,7 @@
             id = new Label();
             label6 = new Label();
             button_enviar = new Button();
+            label_agotado = new Label();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel2.SuspendLayout();
@@ -270,11 +271,22 @@
             button_enviar.UseVisualStyleBackColor = true;
             button_enviar.Click += button_enviar_Click;
             // 
+            // label_agotado
+            // 
+            label_agotado.AutoSize = true;
+            label_agotado.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label_agotado.ForeColor = Color.FromArgb(192, 0, 0);
+            label_agotado.Location = new Point(317, 439);
+            label_agotado.Name = "label_agotado";
+            label_agotado.Size = new Size(0, 31);
+            label_agotado.TabIndex = 25;
+            // 
             // previa_productos
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(846, 580);
+            Controls.Add(label_agotado);
             Controls.Add(button_enviar);
             Controls.Add(label6);
             Controls.Add(id);
@@ -324,5 +336,6 @@
         public Label label_existencias;
         public Label label6;
         private Button button_enviar;
+        private Label label_agotado;
     }
 }

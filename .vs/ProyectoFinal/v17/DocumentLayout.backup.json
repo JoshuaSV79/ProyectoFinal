@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\ProyectoFinalBlanca\\ProyectoFinal\\ProyectoFinal\\",
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\ProyectoFinalFINAL\\ProyectoFinal (2)\\ProyectoFinal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\source\\repos\\ProyectoFinalBlanca\\ProyectoFinal\\ProyectoFinal\\Grafica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\source\\repos\\ProyectoFinalFINAL\\ProyectoFinal (2)\\ProyectoFinal\\Grafica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Grafica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\source\\repos\\ProyectoFinalBlanca\\ProyectoFinal\\ProyectoFinal\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\source\\repos\\ProyectoFinalFINAL\\ProyectoFinal (2)\\ProyectoFinal\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\source\\repos\\ProyectoFinalBlanca\\ProyectoFinal\\ProyectoFinal\\DataBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\source\\repos\\ProyectoFinalFINAL\\ProyectoFinal (2)\\ProyectoFinal\\DataBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\source\\repos\\ProyectoFinalBlanca\\ProyectoFinal\\ProyectoFinal\\ProyectoGina.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\source\\repos\\ProyectoFinalFINAL\\ProyectoFinal (2)\\ProyectoFinal\\ProyectoGina.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProyectoGina.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
@@ -36,9 +36,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Grafica.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinalBlanca\\ProyectoFinal\\ProyectoFinal\\Grafica.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinalFINAL\\ProyectoFinal (2)\\ProyectoFinal\\Grafica.cs",
               "RelativeDocumentMoniker": "Grafica.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ProyectoFinalBlanca\\ProyectoFinal\\ProyectoFinal\\Grafica.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ProyectoFinalFINAL\\ProyectoFinal (2)\\ProyectoFinal\\Grafica.cs",
               "RelativeToolTip": "Grafica.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -49,9 +49,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinalBlanca\\ProyectoFinal\\ProyectoFinal\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinalFINAL\\ProyectoFinal (2)\\ProyectoFinal\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ProyectoFinalBlanca\\ProyectoFinal\\ProyectoFinal\\Form1.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ProyectoFinalFINAL\\ProyectoFinal (2)\\ProyectoFinal\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -61,9 +61,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "DataBase.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinalBlanca\\ProyectoFinal\\ProyectoFinal\\DataBase.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinalFINAL\\ProyectoFinal (2)\\ProyectoFinal\\DataBase.cs",
               "RelativeDocumentMoniker": "DataBase.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ProyectoFinalBlanca\\ProyectoFinal\\ProyectoFinal\\DataBase.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ProyectoFinalFINAL\\ProyectoFinal (2)\\ProyectoFinal\\DataBase.cs",
               "RelativeToolTip": "DataBase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -73,9 +73,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "ProyectoGina.csproj.user",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinalBlanca\\ProyectoFinal\\ProyectoFinal\\ProyectoGina.csproj.user",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ProyectoFinalFINAL\\ProyectoFinal (2)\\ProyectoFinal\\ProyectoGina.csproj.user",
               "RelativeDocumentMoniker": "ProyectoGina.csproj.user",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ProyectoFinalBlanca\\ProyectoFinal\\ProyectoFinal\\ProyectoGina.csproj.user",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ProyectoFinalFINAL\\ProyectoFinal (2)\\ProyectoFinal\\ProyectoGina.csproj.user",
               "RelativeToolTip": "ProyectoGina.csproj.user",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
